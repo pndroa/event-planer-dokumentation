@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  30 MAR 2025 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  30 MAR 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,7 +204,7 @@ Package pdftex.def Info: Abbildungen/Persona_1.png  used on input line 96.
 File: Abbildungen/Persona_2.png Graphic file (type png)
 <use Abbildungen/Persona_2.png>
 Package pdftex.def Info: Abbildungen/Persona_2.png  used on input line 104.
-(pdftex.def)             Requested size: 227.62206pt x 151.3393pt.
+(pdftex.def)             Requested size: 318.66948pt x 211.87845pt.
 
 
 [8 <./Abbildungen/Persona_2.png>]
@@ -255,7 +255,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  57i,7n,65p,1409b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on dokument.pdf (14 pages, 1845109 bytes).
+Output written on dokument.pdf (14 pages, 1845430 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
