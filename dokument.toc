@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {5.1}Login}{10}{}%
 \contentsline {subsection}{\numberline {5.2}Events}{10}{}%
 \contentsline {subsubsection}{\numberline {5.2.1}Event-Feed}{10}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}My Events}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Meine Events}{11}{}%
 \contentsline {subsubsection}{\numberline {5.2.3}Event erstellen}{11}{}%
 \contentsline {subsubsection}{\numberline {5.2.4}Umfrage erstellen}{12}{}%
 \contentsline {subsubsection}{\numberline {5.2.5}Umfrage bearbeiten}{12}{}%
