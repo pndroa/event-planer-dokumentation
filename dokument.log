@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,200 +199,208 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [5]
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+<Abbildungen/feature_map.png, id=27, 3161.8125pt x 387.4475pt>
+File: Abbildungen/feature_map.png Graphic file (type png)
+<use Abbildungen/feature_map.png>
+Package pdftex.def Info: Abbildungen/feature_map.png  used on input line 49.
+(pdftex.def)             Requested size: 455.24411pt x 55.7853pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
 
 
-[7{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-
- []
-
-
+[7{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Abbildungen/feature_map.png>]
 
 [8]
-<Abbildungen/events/login.png, id=35, 869.2475pt x 430.60875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+
+[9]
+<Abbildungen/events/login.png, id=39, 869.2475pt x 430.60875pt>
 File: Abbildungen/events/login.png Graphic file (type png)
 <use Abbildungen/events/login.png>
-Package pdftex.def Info: Abbildungen/events/login.png  used on input line 75.
+Package pdftex.def Info: Abbildungen/events/login.png  used on input line 83.
 (pdftex.def)             Requested size: 455.24411pt x 225.52104pt.
-<Abbildungen/events/event_feed.png, id=37, 874.26625pt x 428.60126pt>
+<Abbildungen/events/event_feed.png, id=41, 874.26625pt x 428.60126pt>
 File: Abbildungen/events/event_feed.png Graphic file (type png)
 <use Abbildungen/events/event_feed.png>
-Package pdftex.def Info: Abbildungen/events/event_feed.png  used on input line 83.
+Package pdftex.def Info: Abbildungen/events/event_feed.png  used on input line 91.
 (pdftex.def)             Requested size: 455.24411pt x 223.1813pt.
-<Abbildungen/events/my_events.png, id=38, 873.2625pt x 428.60126pt>
+<Abbildungen/events/my_events.png, id=42, 873.2625pt x 428.60126pt>
 File: Abbildungen/events/my_events.png Graphic file (type png)
 <use Abbildungen/events/my_events.png>
-Package pdftex.def Info: Abbildungen/events/my_events.png  used on input line 90.
+Package pdftex.def Info: Abbildungen/events/my_events.png  used on input line 98.
 (pdftex.def)             Requested size: 455.24411pt x 223.43636pt.
 
 
-[9 <./Abbildungen/events/login.png> <./Abbildungen/events/event_feed.png>]
-<Abbildungen/events/create_event.png, id=44, 872.25874pt x 428.60126pt>
+[10 <./Abbildungen/events/login.png> <./Abbildungen/events/event_feed.png>]
+<Abbildungen/events/create_event.png, id=48, 872.25874pt x 428.60126pt>
 File: Abbildungen/events/create_event.png Graphic file (type png)
 <use Abbildungen/events/create_event.png>
-Package pdftex.def Info: Abbildungen/events/create_event.png  used on input line 97.
+Package pdftex.def Info: Abbildungen/events/create_event.png  used on input line 105.
 (pdftex.def)             Requested size: 455.24411pt x 223.69142pt.
-<Abbildungen/events/create_survey.png, id=45, 874.26625pt x 433.62pt>
+<Abbildungen/events/create_survey.png, id=49, 874.26625pt x 433.62pt>
 File: Abbildungen/events/create_survey.png Graphic file (type png)
 <use Abbildungen/events/create_survey.png>
-Package pdftex.def Info: Abbildungen/events/create_survey.png  used on input line 104.
+Package pdftex.def Info: Abbildungen/events/create_survey.png  used on input line 112.
 (pdftex.def)             Requested size: 455.24411pt x 225.79468pt.
 
 
-[10 <./Abbildungen/events/my_events.png> <./Abbildungen/events/create_event.png>]
-<Abbildungen/events/edit_survey.png, id=51, 870.25125pt x 420.57124pt>
+[11 <./Abbildungen/events/my_events.png> <./Abbildungen/events/create_event.png>]
+<Abbildungen/events/edit_survey.png, id=55, 870.25125pt x 420.57124pt>
 File: Abbildungen/events/edit_survey.png Graphic file (type png)
 <use Abbildungen/events/edit_survey.png>
-Package pdftex.def Info: Abbildungen/events/edit_survey.png  used on input line 111.
+Package pdftex.def Info: Abbildungen/events/edit_survey.png  used on input line 119.
 (pdftex.def)             Requested size: 455.24411pt x 220.01387pt.
-<Abbildungen/events/my_surveys.png, id=52, 874.26625pt x 433.62pt>
+<Abbildungen/events/my_surveys.png, id=56, 874.26625pt x 433.62pt>
 File: Abbildungen/events/my_surveys.png Graphic file (type png)
 <use Abbildungen/events/my_surveys.png>
-Package pdftex.def Info: Abbildungen/events/my_surveys.png  used on input line 118.
+Package pdftex.def Info: Abbildungen/events/my_surveys.png  used on input line 126.
 (pdftex.def)             Requested size: 455.24411pt x 225.79468pt.
 
 
-[11 <./Abbildungen/events/create_survey.png> <./Abbildungen/events/edit_survey.png>]
-<Abbildungen/events/edit_event.png, id=58, 874.26625pt x 429.605pt>
+[12 <./Abbildungen/events/create_survey.png> <./Abbildungen/events/edit_survey.png>]
+<Abbildungen/events/edit_event.png, id=62, 874.26625pt x 429.605pt>
 File: Abbildungen/events/edit_event.png Graphic file (type png)
 <use Abbildungen/events/edit_event.png>
-Package pdftex.def Info: Abbildungen/events/edit_event.png  used on input line 125.
+Package pdftex.def Info: Abbildungen/events/edit_event.png  used on input line 133.
 (pdftex.def)             Requested size: 455.24411pt x 223.70398pt.
-<Abbildungen/events/delete_event.png, id=59, 875.27pt x 431.6125pt>
+<Abbildungen/events/delete_event.png, id=63, 875.27pt x 431.6125pt>
 File: Abbildungen/events/delete_event.png Graphic file (type png)
 <use Abbildungen/events/delete_event.png>
-Package pdftex.def Info: Abbildungen/events/delete_event.png  used on input line 132.
+Package pdftex.def Info: Abbildungen/events/delete_event.png  used on input line 140.
 (pdftex.def)             Requested size: 455.24411pt x 224.49246pt.
 
 
-[12 <./Abbildungen/events/my_surveys.png> <./Abbildungen/events/edit_event.png>]
-<Abbildungen/wishes/wishes-feed.png, id=65, 874.26625pt x 497.86pt>
+[13 <./Abbildungen/events/my_surveys.png> <./Abbildungen/events/edit_event.png>]
+<Abbildungen/wishes/wishes-feed.png, id=70, 874.26625pt x 497.86pt>
 File: Abbildungen/wishes/wishes-feed.png Graphic file (type png)
 <use Abbildungen/wishes/wishes-feed.png>
-Package pdftex.def Info: Abbildungen/wishes/wishes-feed.png  used on input line 140.
+Package pdftex.def Info: Abbildungen/wishes/wishes-feed.png  used on input line 148.
 (pdftex.def)             Requested size: 455.24411pt x 259.24573pt.
-<Abbildungen/wishes/my-wishes.png, id=66, 872.25874pt x 432.61626pt>
+<Abbildungen/wishes/my-wishes.png, id=71, 872.25874pt x 432.61626pt>
 File: Abbildungen/wishes/my-wishes.png Graphic file (type png)
 <use Abbildungen/wishes/my-wishes.png>
-Package pdftex.def Info: Abbildungen/wishes/my-wishes.png  used on input line 147.
+Package pdftex.def Info: Abbildungen/wishes/my-wishes.png  used on input line 155.
 (pdftex.def)             Requested size: 455.24411pt x 225.7869pt.
 
 
-[13 <./Abbildungen/events/delete_event.png> <./Abbildungen/wishes/wishes-feed.png>]
-<Abbildungen/wishes/create_wish.png, id=73, 873.2625pt x 432.61626pt>
+[14 <./Abbildungen/events/delete_event.png> <./Abbildungen/wishes/wishes-feed.png>]
+<Abbildungen/wishes/create_wish.png, id=77, 873.2625pt x 432.61626pt>
 File: Abbildungen/wishes/create_wish.png Graphic file (type png)
 <use Abbildungen/wishes/create_wish.png>
-Package pdftex.def Info: Abbildungen/wishes/create_wish.png  used on input line 154.
+Package pdftex.def Info: Abbildungen/wishes/create_wish.png  used on input line 162.
 (pdftex.def)             Requested size: 455.24411pt x 225.52945pt.
 
 
-[14 <./Abbildungen/wishes/my-wishes.png> <./Abbildungen/wishes/create_wish.png>]
+[15 <./Abbildungen/wishes/my-wishes.png> <./Abbildungen/wishes/create_wish.png>]
 
-[15]
-Underfull \hbox (badness 1533) in paragraph at lines 186--196
+[16]
+Underfull \hbox (badness 1533) in paragraph at lines 194--204
 \T1/cmr/m/n/12 die sich durch schrit-tweise En-twick-lung und durch regelmäÿige Feed-backschleifen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 186--196
+Underfull \hbox (badness 1248) in paragraph at lines 194--204
 \T1/cmr/m/n/12 Im Ablauf der Sprints wer-den 2 Dai-ly Standup-Meetings inkludiert, da mehrere
  []
 
 
 
-[16]
-<Abbildungen/Systemarchitektur.png, id=85, 1204.5pt x 869.2475pt>
+[17]
+<Abbildungen/Systemarchitektur.png, id=89, 1204.5pt x 869.2475pt>
 File: Abbildungen/Systemarchitektur.png Graphic file (type png)
 <use Abbildungen/Systemarchitektur.png>
-Package pdftex.def Info: Abbildungen/Systemarchitektur.png  used on input line 201.
+Package pdftex.def Info: Abbildungen/Systemarchitektur.png  used on input line 209.
 (pdftex.def)             Requested size: 455.24411pt x 328.54015pt.
 
 
-[17 <./Abbildungen/Systemarchitektur.png>]
+[18 <./Abbildungen/Systemarchitektur.png>]
 
-[18] (./dokument.aux)
+[19] (./dokument.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3474 strings out of 475171
- 58621 string characters out of 5767095
- 468642 words of memory out of 5000000
- 26462 multiletter control sequences out of 15000+600000
+ 3482 strings out of 475171
+ 58875 string characters out of 5767095
+ 468668 words of memory out of 5000000
+ 26470 multiletter control sequences out of 15000+600000
  568223 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,7n,65p,1409b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on dokument.pdf (18 pages, 2642219 bytes).
+Output written on dokument.pdf (19 pages, 2683568 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
