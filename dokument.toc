@@ -7,21 +7,33 @@
 \contentsline {subsection}{\numberline {2.2}Datenbank}{5}{}%
 \contentsline {subsection}{\numberline {2.3}Authentifizierung}{5}{}%
 \contentsline {subsection}{\numberline {2.4}Deliverable}{5}{}%
-\contentsline {section}{\numberline {3}Marktanalyse}{6}{}%
+\contentsline {section}{\numberline {3}Requirements Specification}{6}{}%
 \contentsline {subsection}{\numberline {3.1}Zielgruppe}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Bewertung ähnlicher Produkte}{6}{}%
-\contentsline {section}{\numberline {4}Requirements Specification}{7}{}%
-\contentsline {subsection}{\numberline {4.1}Kundenbefragung}{7}{}%
-\contentsline {subsection}{\numberline {4.2}Personas}{7}{}%
-\contentsline {section}{\numberline {5}Funktionsumfang}{9}{}%
-\contentsline {subsection}{\numberline {5.1}Anmeldung}{9}{}%
-\contentsline {subsection}{\numberline {5.2}Event}{9}{}%
-\contentsline {subsection}{\numberline {5.3}Wünsche}{9}{}%
-\contentsline {section}{\numberline {6}UI Entwürfe}{10}{}%
-\contentsline {subsection}{\numberline {6.1}Events}{10}{}%
-\contentsline {subsection}{\numberline {6.2}Wishes}{10}{}%
-\contentsline {section}{\numberline {7}Aufwandsschätzung}{11}{}%
-\contentsline {subsection}{\numberline {7.1}Roadmap}{11}{}%
-\contentsline {section}{\numberline {8}Projektmanagement: Scrum}{12}{}%
-\contentsline {section}{\numberline {9}Systemarchitektur}{13}{}%
-\contentsline {section}{\numberline {10}Literaturverzeichnis}{14}{}%
+\contentsline {subsection}{\numberline {3.2}Kundenbefragung}{6}{}%
+\contentsline {section}{\numberline {4}Funktionsumfang}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Anmeldung und Registrierung}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Events}{7}{}%
+\contentsline {subsection}{\numberline {4.3}Wünsche}{8}{}%
+\contentsline {section}{\numberline {5}UI Entwürfe}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Login}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Events}{9}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Event-Feed}{9}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}My Events}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Event erstellen}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Umfrage erstellen}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}Umfrage bearbeiten}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.6}Meine Umfragen}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.7}Event bearbeiten}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.8}Event löschen}{13}{}%
+\contentsline {subsection}{\numberline {5.3}Wünsche}{13}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Wünsche-Feed}{13}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Meine Wünsche}{14}{}%
+\contentsline {subsubsection}{\numberline {5.3.3}Wunsch erstellen}{14}{}%
+\contentsline {section}{\numberline {6}Aufwandsschätzung}{15}{}%
+\contentsline {subsection}{\numberline {6.1}Anforderungsanalyse}{15}{}%
+\contentsline {subsection}{\numberline {6.2}Entwurfsphase}{15}{}%
+\contentsline {subsection}{\numberline {6.3}Implementierung \& Testing}{15}{}%
+\contentsline {subsection}{\numberline {6.4}Bereitstellung und Projektabschluss}{15}{}%
+\contentsline {section}{\numberline {7}Projektmanagement: A la Scrum}{16}{}%
+\contentsline {section}{\numberline {8}Systemarchitektur}{17}{}%
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{18}{}%
