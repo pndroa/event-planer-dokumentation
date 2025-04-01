@@ -34,6 +34,6 @@
 \contentsline {subsection}{\numberline {6.2}Entwurfsphase}{15}{}%
 \contentsline {subsection}{\numberline {6.3}Implementierung \& Testing}{15}{}%
 \contentsline {subsection}{\numberline {6.4}Bereitstellung und Projektabschluss}{15}{}%
-\contentsline {section}{\numberline {7}Projektmanagement: A la Scrum}{16}{}%
+\contentsline {section}{\numberline {7}Projektmanagement: "A la Scrum"}{16}{}%
 \contentsline {section}{\numberline {8}Systemarchitektur}{17}{}%
 \contentsline {section}{\numberline {9}Literaturverzeichnis}{18}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,11 +365,11 @@ Underfull \hbox (badness 1248) in paragraph at lines 186--196
 
 
 [16]
-<Abbildungen/Systemarchitektur.png, id=85, 595.22375pt x 433.62pt>
+<Abbildungen/Systemarchitektur.png, id=85, 1204.5pt x 869.2475pt>
 File: Abbildungen/Systemarchitektur.png Graphic file (type png)
 <use Abbildungen/Systemarchitektur.png>
 Package pdftex.def Info: Abbildungen/Systemarchitektur.png  used on input line 201.
-(pdftex.def)             Requested size: 455.24411pt x 331.64543pt.
+(pdftex.def)             Requested size: 455.24411pt x 328.54015pt.
 
 
 [17 <./Abbildungen/Systemarchitektur.png>]
@@ -389,7 +389,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  57i,7n,65p,1409b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on dokument.pdf (18 pages, 2591010 bytes).
+Output written on dokument.pdf (18 pages, 2642219 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
