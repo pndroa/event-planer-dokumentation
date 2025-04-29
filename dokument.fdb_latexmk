@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743536457.41492 "/home/pandora/Documents/Uni/4_Semester/SWT-Projekt/docs/Dokument/dokument.tex" "dokument.pdf" "dokument" 1743536459.22139 0
-  "/home/pandora/Documents/Uni/4_Semester/SWT-Projekt/docs/Dokument/dokument.tex" 1743536455.48639 16644 7ad363d9d19dc7cab6d29cd3025ce9f8 ""
+["pdflatex"] 1745923009.49216 "/home/pandora/Documents/Uni/4_Semester/SWT-Projekt/docs/Dokument/dokument.tex" "dokument.pdf" "dokument" 1745923011.30236 0
+  "/home/pandora/Documents/Uni/4_Semester/SWT-Projekt/docs/Dokument/dokument.tex" 1745923009.29065 29366 f22ec64ad98bf58f7c889cfa25db9d81 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742685315 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742685315 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -63,13 +63,17 @@
   "Abbildungen/events/my_events.png" 1743527112.4876 225245 634fdf600fd3c36d3256c0099bf1fcfd ""
   "Abbildungen/events/my_surveys.png" 1743528215.91128 243477 5d3c9a339ed906059aec6ec6e739c7ff ""
   "Abbildungen/feature_map.png" 1743536276.71224 50084 ff674735c291abfc075b85b996dab2a5 ""
+  "Abbildungen/logisches_datenmodell.png" 1745918476.98859 147480 716d88c7025ecb79a9628e90567429ee ""
+  "Abbildungen/struktursicht.png" 1745917736.69543 28153 c31453267f7c906a51d838816db37287 ""
+  "Abbildungen/verhaltenssicht.png" 1745917797.51582 70316 040363f263a2dcf6635f13e1d7050a97 ""
+  "Abbildungen/verteilungssicht.png" 1745917752.91238 19484 acdc9aed891a5efc55abf919fc799251 ""
   "Abbildungen/wishes/create_wish.png" 1743528035.68588 210876 e50d79735867d77a919ab3da065af6f5 ""
   "Abbildungen/wishes/my-wishes.png" 1743528035.68588 229307 fd347c2035cf44478d011144bb0d0c0b ""
   "Abbildungen/wishes/wishes-feed.png" 1743528035.68588 269185 8e01d5b938f654a624bb00c14e1902cf ""
-  "dokument.aux" 1743536459.15307 6759 b6403db27eea63976ea870945cfa8c4d "pdflatex"
-  "dokument.lof" 1743536459.15307 1107 defa88cde4cc8a1e7c8c78de2bc89a56 "pdflatex"
-  "dokument.tex" 1743536455.48639 16644 7ad363d9d19dc7cab6d29cd3025ce9f8 ""
-  "dokument.toc" 1743536459.15307 2682 4e6ede32c311125bf72e63c74a529fff "pdflatex"
+  "dokument.aux" 1745923011.24401 9540 a2439a04856befcfa6a5132cfc1f6185 "pdflatex"
+  "dokument.lof" 1745923011.24401 1428 d23127c2fbd7da55e2b39265a60313d2 "pdflatex"
+  "dokument.tex" 1745923009.29065 29366 f22ec64ad98bf58f7c889cfa25db9d81 ""
+  "dokument.toc" 1745923011.24401 4011 12f851699b2322626dddfbfaaaef72d8 "pdflatex"
   (generated)
   "dokument.aux"
   "dokument.lof"

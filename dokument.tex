@@ -41,7 +41,6 @@ Als Deliverable wird in diesem Projekt Docker verwendet, da so sicher gegangen w
 Mit dem Endprodukt des Projekts, wird den Mitarbeitenden der Firma Pep-Digital eine Web-Applikation für die Erstellung und Planung von Events zur Verfügung gestellt. Da diese Web-Applikation firmenspezifisch und  nicht für den offenen Markt entwickelt wird, ist die Zielgruppe dieser App sehr reduziert. Dies bedeutet im Umkehrschluss, dass ähnliche Applikationen und Konkurrenten bei der Entwicklung dieser App keine Rolle spielen. Durch die Analyse bereits bestehender Apps, wurden die gelungenen Eigenschaften und Macken dieser Apps herausgefiltert und dadurch weiß man nun, worauf man bei der Entwicklung dieser App achten soll.
 \subsection{Kundenbefragung}
 Eine Kundenbefragung bei der Softwareentwicklung ist wichtig, um die Bedürfnisse und Erwartungen der Zielgruppe zu verstehen. Durch direktes Feedback von potenziellen Nutzern können Entwickler ihre Produkte besser anpassen und optimieren. Im Gespräch mit dem Kundenstellverträter der Firma Pep-Digital ergaben sich beispielsweise Informationen über den Prozess der Erstellung der Events und Wünsche.
-\newpage
 \subsection{Feature-Map}
 Aus der Kundenbefragung ergab sich diese Feature-Map:
 \begin{figure}[H]
@@ -50,6 +49,38 @@ Aus der Kundenbefragung ergab sich diese Feature-Map:
     \caption{Feature-Map}
     \label{fig:feature_map}
 \end{figure}
+\newpage
+\subsection{User Stories}
+\subsubsection{Anmeldung}
+\begin{itemize}
+  \item \textbf{Als Benutzer}, möchte ich mich mit einem bestehenden Account (z.B. Microsoft) anmelden können, \textbf{damit ich} mich nicht neu registrieren muss und die Applikation direkt mit meinem persönlichen Profil nutzen kann.
+  \item \textbf{Als Benutzer} möchte ich mich mit meiner eigenen E-Mail-Adresse und einem selbstgewählten Passwort registrieren können, \textbf{damit ich} ein individuelles Benutzerkonto erstellen und die Applikation nutzen kann.
+  \item \textbf{Als Benutzer} möchte ich mich mit meiner bei der Registrierung erstellten E-Mail-Adresse und meinem Passwort anmelden können, \textbf{damit ich} auf mein persönliches Benutzerkonto in der Applikation zugreifen kann.
+\end{itemize}
+\subsubsection{Events}
+\begin{itemize}
+  \item \textbf{Als Benutzer} möchte ich Events erstellen können, \textbf{damit ich} eigene Veranstaltungen organisieren und veröffentlichen kann, die für alle Nutzer sichtbar sind.
+  \item \textbf{Als Benutzer} möchte ich eine Übersichtsseite mit allen geplanten Events sehen können, \textbf{damit ich} schnell einen Überblick über bevorstehende Veranstaltungen erhalte und mich bei Interesse direkt dafür anmelden kann.
+  \item \textbf{Als Benutzer} möchte ich einem Event beitreten können, \textbf{damit ich} meine Teilnahme an Veranstaltungen bestätigen und sicherstellen kann, dass ich für das Event registriert bin.
+  \item \textbf{Als Benutzer} möchte ich ein Event, dem ich bereits beigetreten bin, wieder verlassen können, \textbf{damit ich} meine Teilnahme zurückziehen kann, falls ich doch nicht an der Veranstaltung teilnehmen kann.
+  \item \textbf{Als Veranstalter} möchte ich Events, die ich erstellt habe, bearbeiten können, \textbf{damit ich} Informationen wie Titel, Datum oder Beschreibung aktualisieren und Änderungen an der Veranstaltung kommunizieren kann.
+  \item \textbf{Als Veranstalter} möchte ich Events, die ich selbst erstellt habe, löschen können, \textbf{damit ich} fehlerhafte oder nicht mehr relevante Veranstaltungen aus dem System entfernen kann.
+\end{itemize}
+\subsubsection{Wünsche}
+\begin{itemize}
+  \item \textbf{Als Benutzer} möchte ich einen Wunsch für eine Veranstaltung zu einem bestimmten Thema erstellen können, \textbf{damit ich} Vorschläge für neue Events einbringen kann.
+  \item \textbf{Als Benutzer} möchte ich eigene erstellte Wünsche wieder löschen können, \textbf{damit ich} nicht mehr relevante oder falsch erstellte Wünsche entfernen kann
+  \item \textbf{Als Benutzer} möchte ich Wünsche anderer Nutzer upvoten können, \textbf{damit ich} Interesse an vorgeschlagenen Veranstaltungen zeigen und unterstützen kann, dass diese umgesetzt werden.
+  \item \textbf{Als Veranstalter} möchte ich mich zu einem Wunsch bereitstellen und daraus ein neues Event erstellen können, \textbf{damit ich} gezielt Veranstaltungen nach den Interessen der Nutzer anbieten kann.
+\end{itemize}
+\subsubsection{Umfragen}
+\begin{itemize}
+  \item \textbf{Als Veranstalter} möchte ich innerhalb eines Events eine Umfrage für die Teilnehmer erstellen können, \textbf{damit ich} Feedback oder Meinungen zu bestimmten Themen einholen kann
+  \item \textbf{Als Veranstalter} möchte ich eine von mir erstellte Umfrage bearbeiten können, \textbf{damit ich} Fragen oder Antwortoptionen anpassen kann, bevor die Umfrage abgeschlossen ist.
+  \item \textbf{Als Veranstalter} möchte ich bei jedem Event die statistischen Auswertungen der Umfragen einsehen können, \textbf{damit ich} schnell einen Überblick darüber bekomme, zu welchen Optionen oder Themen die meisten Teilnehmer tendieren.
+  \item \textbf{Als Benutzer} möchte ich einen Bereich haben, in dem ich alle meine noch nicht abgeschlossenen Umfragen sehen kann, \textbf{damit ich} den Überblick über offene Umfragen behalte und diese bei Bedarf weiterbearbeiten oder abschließen kann.
+\end{itemize}
+\newpage
 \section{Funktionsumfang}
 Der Funktionsumfang vom Event-Planer wurde sorgfältig entwickelt, um eine umfassende und benutzerfreundliche Erfahrung für Mitarbeitende der Firma Pep-Digital zu gewährleisten. Im Folgenden sind die Hauptfunktionen im Detail aufgeführt:
 \subsection{Anmeldung und Registrierung}
@@ -203,13 +234,62 @@ Die Sprints beginnen immer am Dienstag nachdem alle Anforderungen und Feedbacks 
 Im Ablauf der Sprints werden 2 Daily Standup-Meetings inkludiert, da mehrere Dailys im Rahmen dieses Projekts unrealistisch sind. Allerdings sind die Teammitglieder die ganze Woche erreichbar, um Unterstützung zu leisten und spontane Treffen einzurichten. Als Kommunikationsmittel wird teamintern ein Discord-Channel verwendet und für die Betreuer- sowie Kundentreffen hingegen Microsoft-Team.
 \newpage
 \section{Systemarchitektur}
-Die Architektur des Gesamtsystems ist in einer Full-Stack Komponente unterteilt, auch bekannt als 2-Tier-Architecture, da bei Next.js das Front- und Backend innerhalt eines Projektes liegen. Die einzige logische Trennung die man hat ist die zwischen der Applikation und der Datenbank. Die Datenbank und der Authentifizierungsservice erfolgt über Supabase und einem Provider im Falle des Projektes über Microsoft, dass auch SSO unterstützt.
+\subsection{Allgemein}
+Die Architektur des Gesamtsystems ist in einer Full-Stack Komponente unterteilt. Die Datenbank und der Authentifizierungsservice erfolgt über Supabase und einem Provider im Falle des Projektes über Microsoft, dass auch SSO unterstützt.
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{Abbildungen/Systemarchitektur.png}
   \caption{Systemarchitektur}
   \label{fig:systemarchitektur}
 \end{figure}
+\newpage
+\subsection{Struktursicht}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{Abbildungen/struktursicht.png}
+  \caption{Struktursicht}
+  \label{fig:struktursicht}
+\end{figure}
+Die Struktursicht zeigt den Aufbau des Projekts, das mit Next.js als Fullstack-Framework umgesetzt wurde. Die Anwendung ist in drei Hauptbereiche unterteilt: Das Frontend basiert auf React und ist modular strukturiert. Für die Authentifizierung wird SupaBase direkt vom Frontend aus genutzt. Die Backend-Logik ist in Node.js implementiert und über die integrierten API-Routen von Next.js (z.B. api/event, api/user) realisiert. Diese kommunizieren per HTTP mit der SupaBase-Datenbank. Die Architektur trennt somit klar zwischen Benutzeroberfläche, Geschäftslogik und Datenhaltung.
+\subsection{Verhaltenssicht}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{Abbildungen/verhaltenssicht.png}
+  \caption{Verhaltenssicht}
+  \label{fig:verhaltenssicht}
+\end{figure}
+Die Verhaltenssicht beschreibt die Rollen und Interaktionen der Nutzer innerhalb der Anwendung. Ausgangspunkt ist der Benutzer, der sich über SSO anmelden und verschiedene Rollen einnehmen kann. Als Interessent kann er Interesse an einem Event bekunden oder zurückziehen. Sobald Interesse in eine Teilnahme übergeht, wird er zum Teilnehmer und kann Events bestätigen, stornieren oder an Umfragen teilnehmen. Wird ein Benutzer selbst aktiv, kann er als Veranstalter Events erstellen und verwalten. Die Grafik veranschaulicht diese dynamischen Zustandswechsel und Aktionen im System.
+\subsection{Verteilungssicht}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{Abbildungen/verteilungssicht.png}
+  \caption{Verteilungssicht}
+  \label{fig:verteilungssicht}
+\end{figure}
+Die Verteilungssicht zeigt, wie die verschiedenen Teile der Anwendung auf technische Komponenten verteilt sind. Das Frontend besteht aus React-Komponenten, die in pages.tsx implementiert sind. Die Authentifizierung erfolgt über SupaBase, das direkt vom Frontend per HTTP-Request angesprochen wird. Das Backend nutzt eine Datei wie route.ts, um serverseitige Logik bereitzustellen, und kommuniziert ebenfalls per HTTP mit der SupaBase-Datenbank. Die Datenhaltung sowie Authentifizierung sind somit ausgelagert und zentral über SupaBase realisiert. Die Struktur ermöglicht eine klare Trennung zwischen Präsentation, Authentifizierung, Logik und Daten.
+\newpage
+\section{Schnittstellentechnologien}
+\subsection{Schnittstellenbeschreibung}
+Schnittstellentechnologien bilden das Fundament für die reibungslose Kommunikation zwischen den verschiedenen Komponenten unseres Softwaresystems. Im Rahmen dieses Projekts dient eine RESTful-API als zentrale Vermittlungsinstanz zwischen dem Next.js-basierten Frontend, der Prisma-gestützten Datenbankebene und der Authentifizierungslösung von Supabase. Als Datenformat kommt JSON zum Einsatz, während die Übertragung über das HTTPS-Protokoll erfolgt. Diese Kombination gewährleistet nicht nur eine hohe Effizienz, sondern auch eine plattformunabhängige und sichere Kommunikation zwischen den Systemkomponenten.\newline \newline Die Architektur der API orientiert sich am App-Router-Konzept von Next.js, wobei jede Route in einer eigenständigen Datei (z. B. app/api/.../route.ts) implementiert wird. Die Gestaltung der Schnittstellen folgt dabei den etablierten REST-Prinzipien, insbesondere den Aspekten der Zustandslosigkeit, Adressierbarkeit, Verwendung standardisierter HTTP-Methoden und einer konsistenten Nutzung von HTTP-Statuscodes.\newline\newline Ein zentrales Merkmal der gewählten Architektur ist die Zustandslosigkeit (Statelessness), was bedeutet, dass jede eingehende Anfrage sämtliche für die Verarbeitung notwendigen Informationen - einschließlich der Authentifizierungsdaten - selbst enthalten muss. Die Verwaltung der Benutzersitzungen erfolgt dabei durch Supabase, das JSON-Web-Tokens (JWT) in Form von Cookies bereitstellt. Zusätzliche clientseitige Zustände, wie beispielsweise der lokale Status von Upvotes, werden durch den Client selbst verwaltet, wodurch eine klare Trennung der Verantwortlichkeiten gewahrt bleibt.\newline \newline Das Prinzip der Adressierbarkeit manifestiert sich in der strukturierten und eindeutigen Identifizierbarkeit aller Ressourcen über entsprechende URIs. So ermöglicht beispielsweise der Endpunkt GET /api/wish den Abruf einer vollständigen Liste aller Wünsche, während eine neue Ressource durch eine Anfrage an POST /api/wish angelegt werden kann. Spezifische Aktionen, wie das Setzen eines Upvotes, werden über definierte Routen wie POST /api/wish/{wishId}/upvote ausgelöst.\newline \newline Die verwendeten HTTP-Methoden folgen dem etablierten CRUD-Paradigma (Create, Read, Update, Delete), wobei die Leseoperationen durch die GET-Methode realisiert werden. Das Anlegen neuer Ressourcen oder das Auslösen von Aktionen erfolgt mittels POST, während PUT und PATCH für Aktualisierungen und DELETE für das Entfernen von Ressourcen vorgesehen sind.\newline \newline Die API kommuniziert den Erfolg oder Misserfolg einer Operation durch entsprechende HTTP-Statuscodes. Erfolgreiche Anfragen werden mit den Codes 200 OK oder 201 Created quittiert, während Validierungsfehler eine Antwort mit dem Status 400 Bad Request und detaillierten Fehlerbeschreibungen zur Folge haben. Unberechtigte Zugriffsversuche führen zur Rückgabe des Status 401 Unauthorized, und unerwartete Serverfehler werden durch den Code 500 Internal Server Error signalisiert.
+\newpage
+\section{Datenbank}
+\subsection{Logisches Datenmodell}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{Abbildungen/logisches_datenmodell.png}
+  \caption{Logisches Datenmodell}
+  \label{fig:logisches_datenmodell}
+\end{figure}
+\subsubsection{Entity Relationship Modell}
+In der Anwendung übernimmt die Datenbank eine tragende Rolle - sie bildet das Fundament, auf dem sämtliche Datenflüsse und Systemlogiken aufbauen.Mithilfe ihrer Struktur lassen sich unterschiedliche Entitäten und deren Beziehungen modellieren, wodurch Funktionen wie Eventmanagement, Umfragen oder das Einreichen von Nutzerwünschen umgesetzt werden können. Technisch basiert das System auf Supabase, das neben der Bereitstellung der relationalen Datenbank auch mit Supabase Auth eine sichere und zugleich benutzerfreundliche Authentifizierungslösung integriert.
+\subsubsection{Nutzerverwaltung mit Supabase Auth}
+Ein zentraler Bestandteil dieser Architektur ist die enge Verknüpfung zwischen der eigens entwickelten Users-Tabelle und der von Supabase bereitgestellten Tabelle auth.users. Während sicherheitskritische Informationen wie Passwörter ausschließlich in auth.users abgelegt und geschützt bleiben, enthält die eigene Users-Tabelle ergänzende Angaben wie E-Mail-Adresse oder Anzeigename. Die Verbindung beider Tabellen erfolgt über das id-Feld, das in auth.users als Primary Key definiert ist. Ein automatisch ausgelöster Trigger sorgt dafür, dass diese ID unmittelbar nach der Registrierung auch in der Users-Tabelle als Foreign Key gespeichert wird. Dadurch wird jeder Nutzer eindeutig identifizierbar und eine klare Trennung zwischen sicherheitsrelevanten und anwendungsbezogenen Informationen geschaffen.
+\subsubsection{Haupttabellen und ihre Aufgabenbereiche}
+Die Datenbankstruktur gliedert sich in Haupt- und Hilfstabellen. Zu den Haupttabellen zählen neben Users auch Wishes, Events sowie Surveys und SurveyQuestions. Über Wishes lassen sich Vorschläge und Ideen - etwa für künftige Schulungsveranstaltungen - einreichen. Diese Vorschläge können von anderen Nutzern geupvoted oder in tatsächliche Events umgewandelt werden. Solche Events können jedoch auch unabhängig von Wünschen erstellt werden. Surveys ermöglichen es, Rückmeldungen einzuholen, beispielsweise zur Qualität von Events, und sind direkt mit den dazugehörigen SurveyQuestions verknüpft, die die konkreten Fragestellungen enthalten.
+\subsubsection{Hilfstabellen für komplexe Beziehungen}
+Die Hilfstabellen dienen vor allem der Abbildung komplexer, meist Viele-zu-Viele-Beziehungen. So wird in UserAnswer gespeichert, welche Antwort ein bestimmter Nutzer auf eine Umfragefrage gegeben hat. Die Tabelle EventParticipation dokumentiert, welche Nutzer sich für welche Events angemeldet haben. WishUpvote wiederum ermöglicht es, Schulungswünsche zu unterstützen, indem man signalisiert, dass man die Idee für sinnvoll hält und sich eine Umsetzung in Form eines Events wünscht.
+\subsection{Physisches Datenmodell}
+Für das physische Datenmodell wird Supabase verwendet, das auf einer PostgreSQL-Datenbank basiert. Supabase hostet die gesamte Datenbank sowie die Benutzer-Authentifizierung. Alle Tabellen und Beziehungen folgen dem zuvor definierten logischen Modell. Zusätzlich sorgen serverseitige Funktionen wie Trigger und Zugriffspolicies für Sicherheit und Datenkonsistenz.
 \newpage
 \section{Literaturverzeichnis}
 \end{document}

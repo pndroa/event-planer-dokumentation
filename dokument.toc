@@ -1,40 +1,58 @@
 \babel@toc {german}{}\relax 
-\contentsline {section}{\numberline {1}Einführung}{4}{}%
-\contentsline {section}{\numberline {2}Technologien}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Full-Stack Framework}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Frontend}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}Backend}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Datenbank}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Authentifizierung}{5}{}%
-\contentsline {subsection}{\numberline {2.4}Deliverable}{5}{}%
-\contentsline {section}{\numberline {3}Requirements Specification}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Zielgruppe}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Kundenbefragung}{6}{}%
+\contentsline {section}{\numberline {1}Einführung}{5}{}%
+\contentsline {section}{\numberline {2}Technologien}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Full-Stack Framework}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Frontend}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Backend}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Datenbank}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Authentifizierung}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Deliverable}{6}{}%
+\contentsline {section}{\numberline {3}Requirements Specification}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Zielgruppe}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Kundenbefragung}{7}{}%
 \contentsline {subsection}{\numberline {3.3}Feature-Map}{7}{}%
-\contentsline {section}{\numberline {4}Funktionsumfang}{7}{}%
-\contentsline {subsection}{\numberline {4.1}Anmeldung und Registrierung}{7}{}%
-\contentsline {subsection}{\numberline {4.2}Events}{7}{}%
-\contentsline {subsection}{\numberline {4.3}Wünsche}{9}{}%
-\contentsline {section}{\numberline {5}UI Entwürfe}{10}{}%
-\contentsline {subsection}{\numberline {5.1}Login}{10}{}%
-\contentsline {subsection}{\numberline {5.2}Events}{10}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}Event-Feed}{10}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}Meine Events}{11}{}%
-\contentsline {subsubsection}{\numberline {5.2.3}Event erstellen}{11}{}%
-\contentsline {subsubsection}{\numberline {5.2.4}Umfrage erstellen}{12}{}%
-\contentsline {subsubsection}{\numberline {5.2.5}Umfrage bearbeiten}{12}{}%
-\contentsline {subsubsection}{\numberline {5.2.6}Meine Umfragen}{13}{}%
-\contentsline {subsubsection}{\numberline {5.2.7}Event bearbeiten}{13}{}%
-\contentsline {subsubsection}{\numberline {5.2.8}Event löschen}{14}{}%
-\contentsline {subsection}{\numberline {5.3}Wünsche}{14}{}%
-\contentsline {subsubsection}{\numberline {5.3.1}Wünsche-Feed}{14}{}%
-\contentsline {subsubsection}{\numberline {5.3.2}Meine Wünsche}{15}{}%
-\contentsline {subsubsection}{\numberline {5.3.3}Wunsch erstellen}{15}{}%
-\contentsline {section}{\numberline {6}Aufwandsschätzung}{16}{}%
-\contentsline {subsection}{\numberline {6.1}Anforderungsanalyse}{16}{}%
-\contentsline {subsection}{\numberline {6.2}Entwurfsphase}{16}{}%
-\contentsline {subsection}{\numberline {6.3}Implementierung \& Testing}{16}{}%
-\contentsline {subsection}{\numberline {6.4}Bereitstellung und Projektabschluss}{16}{}%
-\contentsline {section}{\numberline {7}Projektmanagement: "A la Scrum"}{17}{}%
-\contentsline {section}{\numberline {8}Systemarchitektur}{18}{}%
-\contentsline {section}{\numberline {9}Literaturverzeichnis}{19}{}%
+\contentsline {subsection}{\numberline {3.4}User Stories}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Anmeldung}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Events}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Wünsche}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.4}Umfragen}{9}{}%
+\contentsline {section}{\numberline {4}Funktionsumfang}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Anmeldung und Registrierung}{10}{}%
+\contentsline {subsection}{\numberline {4.2}Events}{10}{}%
+\contentsline {subsection}{\numberline {4.3}Wünsche}{11}{}%
+\contentsline {section}{\numberline {5}UI Entwürfe}{12}{}%
+\contentsline {subsection}{\numberline {5.1}Login}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Events}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Event-Feed}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Meine Events}{13}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Event erstellen}{13}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Umfrage erstellen}{14}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}Umfrage bearbeiten}{14}{}%
+\contentsline {subsubsection}{\numberline {5.2.6}Meine Umfragen}{15}{}%
+\contentsline {subsubsection}{\numberline {5.2.7}Event bearbeiten}{15}{}%
+\contentsline {subsubsection}{\numberline {5.2.8}Event löschen}{16}{}%
+\contentsline {subsection}{\numberline {5.3}Wünsche}{16}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Wünsche-Feed}{16}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Meine Wünsche}{17}{}%
+\contentsline {subsubsection}{\numberline {5.3.3}Wunsch erstellen}{17}{}%
+\contentsline {section}{\numberline {6}Aufwandsschätzung}{18}{}%
+\contentsline {subsection}{\numberline {6.1}Anforderungsanalyse}{18}{}%
+\contentsline {subsection}{\numberline {6.2}Entwurfsphase}{18}{}%
+\contentsline {subsection}{\numberline {6.3}Implementierung \& Testing}{18}{}%
+\contentsline {subsection}{\numberline {6.4}Bereitstellung und Projektabschluss}{18}{}%
+\contentsline {section}{\numberline {7}Projektmanagement: "A la Scrum"}{19}{}%
+\contentsline {section}{\numberline {8}Systemarchitektur}{20}{}%
+\contentsline {subsection}{\numberline {8.1}Allgemein}{20}{}%
+\contentsline {subsection}{\numberline {8.2}Struktursicht}{21}{}%
+\contentsline {subsection}{\numberline {8.3}Verhaltenssicht}{22}{}%
+\contentsline {subsection}{\numberline {8.4}Verteilungssicht}{23}{}%
+\contentsline {section}{\numberline {9}Schnittstellentechnologien}{24}{}%
+\contentsline {subsection}{\numberline {9.1}Schnittstellenbeschreibung}{24}{}%
+\contentsline {section}{\numberline {10}Datenbank}{25}{}%
+\contentsline {subsection}{\numberline {10.1}Logisches Datenmodell}{25}{}%
+\contentsline {subsubsection}{\numberline {10.1.1}Entity Relationship Modell}{25}{}%
+\contentsline {subsubsection}{\numberline {10.1.2}Nutzerverwaltung mit Supabase Auth}{25}{}%
+\contentsline {subsubsection}{\numberline {10.1.3}Haupttabellen und ihre Aufgabenbereiche}{26}{}%
+\contentsline {subsubsection}{\numberline {10.1.4}Hilfstabellen für komplexe Beziehungen}{26}{}%
+\contentsline {subsection}{\numberline {10.2}Physisches Datenmodell}{26}{}%
+\contentsline {section}{\numberline {11}Literaturverzeichnis}{27}{}%
