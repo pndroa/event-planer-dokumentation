@@ -7,6 +7,8 @@
 \usepackage{float}
 \geometry{a4paper, margin=2.5cm}
 \sloppy
+\usepackage[acronym]{glossaries}
+\makeglossaries
 
 \begin{document}
 
@@ -14,13 +16,22 @@
 \author{Felix Hoffmann, Baran Bickici, Sami Gökpinar, Ergün Bickici}
 \date{\today}
 \maketitle
+
+\newglossaryentry{event}{
+    name=Event,
+    description={}
+}
+
+
 \newpage
 \tableofcontents
 \newpage
 \listoffigures
 \newpage
+\listoftables
+\newpage
 \section{Einführung}
-Im Rahmen des Softwareprojekts im 4. Semester des Studienganges Softwaretechnik und Medieninformatik wird über das ganze Semester ein Projekt mit einer Partnerfirma, die als Kunden agieren durchgeführt. Dieses Projekt wird mit der Firma Pep-Digital die sich ein Produkt wünschen mit dem Titel "Event-Planer". Dieses Produkt soll eine Web-Applikation werden, in denen Mitarbeiter der Firma Pep-Digital Events erstellen und das Event planen können z.B. mit Umfragen, Datum des Events und Teilnehmer. Dazu hat man auch die Möglichkeit Wünsche zu äußern aus denen man Events erstellen kann. Als erstes wird sich erst auf Schulungsevents konzentriert und in der Zukunft hat man die Möglichkeit auch andere Arten von Events zu erstellen.
+Im Rahmen des Softwareprojekts im 4. Semester des Studienganges Softwaretechnik und Medieninformatik wird über das ganze Semester ein Projekt mit einem Partnerunternehmen, die als Kunden agieren durchgeführt. Dieses Projekt wird mit dem Unternehmen pep.digital die sich ein Produkt wünschen mit dem Titel "Event-Planer". Dieses Produkt soll eine Web-Applikation werden, in denen Mitarbeiter des Unternehmen pep.digital Events erstellen und das Event planen können z.B. mit Umfragen, Datum des Events und Teilnehmer. Dazu hat man auch die Möglichkeit Wünsche zu äußern aus denen man Events erstellen kann. Als erstes wird sich erst auf Schulungsevents konzentriert und in der Zukunft hat man die Möglichkeit auch andere Arten von Events zu erstellen.
 \section{Technologien}
 \subsection{Full-Stack Framework}
 Für die Umsetzung des Projekts wurde Next.js als Full-Stack-Framework gewählt. Next.js basiert auf React und bietet eine vollständige Lösung für die Entwicklung von Webanwendungen, indem es sowohl Frontend- als auch Backend-Funktionalitäten integriert. Mit Next.js können Entwickler sowohl serverseitiges Rendering (SSR) als auch statische Seitengenerierung (SSG) nutzen. Zudem bietet es eine einfache Möglichkeit, API-Routen zu erstellen, was es zu einer hervorragenden Wahl für Full-Stack-Entwicklungen macht. Die Verwendung von TypeScript sorgt für eine typsichere und fehlerarme Entwicklung, sowohl im Frontend als auch im Backend.
@@ -30,17 +41,17 @@ Im Frontend nutzt Next.js React. React ist eine quelloffene JavaScript-Bibliothe
 Das Backend in Next.js wird durch das integrierte API-Routing realisiert, das auf Node.js basiert. Durch diese Integration können Entwickler API-Routen direkt innerhalb der Next.js-Anwendung erstellen, ohne einen separaten Server benötigen zu müssen. Diese Routen ermöglichen es, serverseitige Logik auszuführen, wie etwa das Abrufen von Daten aus einer Datenbank oder das Bearbeiten von Anfragen. Da Next.js auf Node.js aufbaut, können alle leistungsfähigen Funktionen von Node.js genutzt werden, während TypeScript die Entwicklung durch statische Typisierung und Fehlererkennung verbessert. Dies sorgt für eine konsistente und sichere Entwicklung sowohl im Frontend als auch im Backend innerhalb derselben Codebasis.
 \newpage
 \subsection{Datenbank}
-Für die Datenbank wurde PostgreSQL in Kombination mit Supabase gewählt. PostgreSQL bietet zahlreiche Vorteile für die Nutzung in Webanwendungen. Es ist besonders leistungsfähig und skalierbar, was es ideal für die Verwaltung großer Datenmengen und viele gleichzeitige Nutzer macht. Mit seiner hohen Erweiterbarkeit ermöglicht es die Anpassung der Datenbank an spezifische Anforderungen, etwa durch benutzerdefinierte Datentypen und Funktionen. Die robuste Datenintegrität sorgt dafür, dass die Daten sicher und konsistent bleiben, auch bei komplexen Transaktionen. Dank fortschrittlicher Indexierungs- und Abfrageoptimierungen können Webanwendungen schnell auf große Datenmengen zugreifen. Zudem ist PostgreSQL ACID-konform, was bedeutet, dass es zuverlässige und fehlerfreie Transaktionen garantiert. Diese Eigenschaften machen PostgreSQL zu einer bevorzugten Wahl für Webanwendungen, die hohe Leistung, Flexibilität und Datenintegrität erfordern. Supabase ist eine Open-Source-Plattform, die Entwicklern hilft, moderne Anwendungen schnell und einfach zu erstellen. Sie bietet eine Vielzahl von Funktionen wie Datenbanken, Authentifizierung, Echtzeit-Updates und APIs, um skalierbare und sichere Anwendungen zu entwickeln, ohne viel Aufwand in die Backend-Programmierung investieren zu müssen.
+Für die Umsetzung der Anwendung wurde eine relationale Datenbank auf Basis von PostgreSQL gewählt. Diese Entscheidung basiert auf der strukturellen Beschaffenheit der Daten sowie auf Vorkenntnissen im Umgang mit relationalen Datenbanksystemen. Die Anwendung verarbeitet klar strukturierte Daten wie Nutzerinformationen, Veranstaltungsdetails, Wunschvorschläge und Umfrageergebnisse. Viele dieser Entitäten weisen ähnliche Attribute auf oder stehen in logisch definierten Beziehungen zueinander. Relationale Datenbanken eignen sich in solchen Szenarien besonders gut, da sie eine eindeutige Abbildung von Beziehungen ermöglichen. Zudem liegen bereits umfangreiche Erfahrungen im Umgang mit relationalen Datenbanken vor, unter anderem durch vergangene Vorlesungen und Projekte mit SQL. Der Einsatz einer vertrauten Technologie ermöglicht eine effizientere Umsetzung des Datenmodells, ohne zusätzlichen Einarbeitungsaufwand in alternative Datenbankkonzepte. PostgreSQL wurde als Datenbankmanagementsystem gewählt, da es als stabile und gut dokumentierte Lösung gilt. Es deckt sowohl grundlegende Anforderungen wie CRUD-Operationen als auch komplexere Anforderungen hinsichtlich Datenintegrität ab. In Kombination mit der Backend-Plattform Supabase wird die Datenbank um Zugriffskontrollen ergänzt, ohne dass dafür viel eigene Backend-Logik nötig ist.
 \subsection{Authentifizierung}
 Supabase wird für die Authentifizierung genutzt, da es eine einfache und sichere Möglichkeit bietet, Nutzer in eine Anwendung zu integrieren. Es unterstützt Single Sign-On (SSO) und externe Identitätsanbieter wie Google und Microsoft Azure, sodass sich Benutzer bequem mit ihren bestehenden Konten anmelden können. Durch die Integration von Microsoft Azure können sich insbesondere Mitarbeiter direkt mit ihren Microsoft-Accounts authentifizieren. Dies erleichtert den Zugriff auf die Anwendung, da keine separaten Anmeldeinformationen erstellt werden müssen, und sorgt gleichzeitig für höhere Sicherheit und bessere Verwaltungsmöglichkeiten durch zentrale Benutzerkontrollen in Azure.
-\subsection{Deliverable}
-Als Deliverable wird in diesem Projekt Docker verwendet, da so sicher gegangen werden kann, dass die Anwendung in einer konsistenten Umgebung ausgeführt wird, unabhängig von den zugrunde liegenden Betriebssystemen oder Hardwarekonfigurationen.
+\subsection{Bereitstellung}
+Zur Bereitstellung wird in diesem Projekt Docker verwendet, da so sicher gegangen werden kann, dass die Anwendung in einer konsistenten Umgebung ausgeführt wird, unabhängig von den zugrunde liegenden Betriebssystemen oder Hardwarekonfigurationen.
 \newpage
 \section{Requirements Specification}
 \subsection{Zielgruppe}
-Mit dem Endprodukt des Projekts, wird den Mitarbeitenden der Firma Pep-Digital eine Web-Applikation für die Erstellung und Planung von Events zur Verfügung gestellt. Da diese Web-Applikation firmenspezifisch und  nicht für den offenen Markt entwickelt wird, ist die Zielgruppe dieser App sehr reduziert. Dies bedeutet im Umkehrschluss, dass ähnliche Applikationen und Konkurrenten bei der Entwicklung dieser App keine Rolle spielen. Durch die Analyse bereits bestehender Apps, wurden die gelungenen Eigenschaften und Macken dieser Apps herausgefiltert und dadurch weiß man nun, worauf man bei der Entwicklung dieser App achten soll.
+Mit dem Endprodukt des Projekts, wird den Mitarbeitenden des Unternehmen pep.digital eine Web-Applikation für die Erstellung und Planung von Events zur Verfügung gestellt. Da diese Web-Applikation firmenspezifisch und  nicht für den offenen Markt entwickelt wird, ist die Zielgruppe dieser App sehr reduziert. Dies bedeutet im Umkehrschluss, dass ähnliche Applikationen und Konkurrenten bei der Entwicklung dieser App keine Rolle spielen. Durch die Analyse bereits bestehender Anwendungen, wurden gelungene Eigenschaften und Makel aufgelistet. Dadurch ist klar, worauf es bei der Entwicklung geachtet werden soll
 \subsection{Kundenbefragung}
-Eine Kundenbefragung bei der Softwareentwicklung ist wichtig, um die Bedürfnisse und Erwartungen der Zielgruppe zu verstehen. Durch direktes Feedback von potenziellen Nutzern können Entwickler ihre Produkte besser anpassen und optimieren. Im Gespräch mit dem Kundenstellverträter der Firma Pep-Digital ergaben sich beispielsweise Informationen über den Prozess der Erstellung der Events und Wünsche.
+Eine Kundenbefragung bei der Softwareentwicklung ist wichtig, um die Bedürfnisse und Erwartungen der Zielgruppe zu verstehen. Durch direktes Feedback von potenziellen Nutzern können Entwickler ihre Produkte besser anpassen und optimieren. Im Gespräch mit dem Kunden ergaben sich beispielsweise Informationen über den Prozess der Erstellung der Events und Wünsche.
 \subsection{Feature-Map}
 Aus der Kundenbefragung ergab sich diese Feature-Map:
 \begin{figure}[H]
@@ -82,9 +93,9 @@ Aus der Kundenbefragung ergab sich diese Feature-Map:
 \end{itemize}
 \newpage
 \section{Funktionsumfang}
-Der Funktionsumfang vom Event-Planer wurde sorgfältig entwickelt, um eine umfassende und benutzerfreundliche Erfahrung für Mitarbeitende der Firma Pep-Digital zu gewährleisten. Im Folgenden sind die Hauptfunktionen im Detail aufgeführt:
+Der Funktionsumfang vom Event-Planer wurde sorgfältig entwickelt, um eine umfassende und benutzerfreundliche Erfahrung für Mitarbeitende der Unternehmen pep.digital zu gewährleisten. Im Folgenden sind die Hauptfunktionen im Detail aufgeführt:
 \subsection{Anmeldung und Registrierung}
- Mitarbeitende können sich mühelos mit ihrem bestehenden Firmenaccount über Microsoft anmelden. Die benutzerfreundliche und intuitive Oberfläche optimiert den Anmeldeprozess. Zusätzlich haben auch externe Nutzer die Möglichkeit, sich unabhängig von einem Unternehmen zu registrieren.
+ Mitarbeitende können sich mühelos mit ihrem bestehenden Unternehmensaccount über Microsoft anmelden. Die benutzerfreundliche und intuitive Oberfläche optimiert den Anmeldeprozess. Zusätzlich haben auch externe Nutzer die Möglichkeit, sich unabhängig vom Unternehmen zu registrieren.
 \subsection{Events}
 User haben die Möglichkeit, eigene Events zu erstellen, zu bearbeiten und zu löschen. Jedes Event umfasst einen Titel und eine Beschreibung, in der Details zur Veranstaltung festgehalten werden können.\\\\
 Nach der Erstellung können Events jederzeit vom Ersteller angepasst werden, sei es zur Änderung des Titels, der Beschreibung oder weiterer relevanter Informationen. Falls ein Event nicht mehr benötigt wird, kann es auch gelöscht werden.\\\\
@@ -105,95 +116,6 @@ Zudem gibt es eine eigene Sektion Meine Wünsche, in der User ihre eigenen erste
 Andere User können Wünsche upvoten, um zu zeigen, dass sie Interesse an diesem Event haben. Es gibt keine Mindestanzahl an Upvotes unabhängig von der Anzahl kann sich jemand bereitstellen, den Wunsch in ein tatsächliches Event umzusetzen.\\\\
 Der Ersteller kann seinen Wunsch jederzeit bearbeiten oder löschen, falls sich die Idee ändert oder nicht mehr relevant ist.\\\\  
 Dieses Feature hilft dabei, Events zu organisieren, die wirklich von der Community gewünscht werden, und fördert die aktive Teilnahme aller User.\\\\
-\newpage
-\section{UI Entwürfe}
-Anmerkung: Die UI-Entwürfe sind keine endgültigen Designentscheidungen, sondern dienen lediglich zur Veranschaulichung der Anwendungsstruktur.
-\subsection{Login}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/login.png}
-    \caption{Login}
-    \label{fig:login}
-  \end{figure}
-\subsection{Events}
-\subsubsection{Event-Feed}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/event_feed.png}
-    \caption{Event-Feed}
-    \label{fig:event_Feed}
-  \end{figure}
-\subsubsection{Meine Events}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/my_events.png}
-    \caption{Meine Events}
-    \label{fig:my_events}
-  \end{figure}
-\subsubsection{Event erstellen}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/create_event.png}
-    \caption{Event erstellen}
-    \label{fig:create_event}
-  \end{figure}
-\subsubsection{Umfrage erstellen}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/create_survey.png}
-    \caption{Umfrage erstellen}
-    \label{fig:create_survey}
-  \end{figure}
-\subsubsection{Umfrage bearbeiten}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/edit_survey.png}
-    \caption{Umfrage bearbeiten}
-    \label{fig:edit_survey}
-  \end{figure}
-\subsubsection{Meine Umfragen}
-  \begin{figure}[H]
-      \centering
-      \includegraphics[width=1\textwidth]{Abbildungen/events/my_surveys.png}
-      \caption{Meine Umfragen}
-      \label{fig:my_survey}
-    \end{figure}
-\subsubsection{Event bearbeiten}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/edit_event.png}
-    \caption{Event bearbeiten}
-    \label{fig:cedit_event}
-  \end{figure}
-\subsubsection{Event löschen}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/events/delete_event.png}
-    \caption{Event löschen}
-    \label{fig:delet_event}
-  \end{figure}
-\subsection{Wünsche}
-\subsubsection{Wünsche-Feed}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/wishes/wishes-feed.png}
-    \caption{Wünsche-Feed}
-    \label{fig:wishes-feed}
-  \end{figure}
-\subsubsection{Meine Wünsche}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/wishes/my-wishes.png}
-    \caption{Meine Wünsche}
-    \label{fig:my-wishes}
-  \end{figure}
-\subsubsection{Wunsch erstellen}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Abbildungen/wishes/create_wish.png}
-    \caption{Wunsch erstellen}
-    \label{fig:create_wish}
-  \end{figure}
 \newpage
 \section{Aufwandsschätzung}
 \subsection{Anforderungsanalyse}
@@ -221,24 +143,24 @@ Bereitstellung der Anwendung nach erfolgreicher Implementierung \& Testphase.
     \item Dauer: 1-2 Wochen
 \end{itemize}
 \newpage
-\section{Projektmanagement: "A la Scrum"}
+\section{Projektmanagement: "Scrum angelehnt"}
 Für dieses Projekt werden gewisse Apekte der agilen Methode Scrum verwendet. Dabei werden die Scrum-Zyklen auch bekannt als Sprints in 1 Wochen abschnitten eingeteilt, die sich durch schrittweise Entwicklung und durch regelmäßige Feedbackschleifen auszeichnet. Alle Aufgaben eines Sprints werden in Jira in einem Backlog gespeichert, beschrieben und unter dem Team verteilt.
 \newline
 \newline
 Das Team hat wöchentliche Meetings mit dem Kunden und danach mit dem Betreuer des Projektes auch bekannt als Spint-Review. Dieser Termin findet immer Montags statt und markiert das Ende des aktuellen Sprints. Dieser Termin wird genutzt um die Ergebnisse des Kundes vom Sprint zu präsentieren und Feedback einzuholen, danach werden die nächsten Anforderungen vom Kunden besprochen. Im Anschluss darauf findet das Treffen mit dem Betreuer statt, bei denen offene fachliche Fragen geklärt werden. 
 \newline
 \newline
-Die Sprints beginnen immer am Dienstag nachdem alle Anforderungen und Feedbacks eingesammelt worden sind. Des weiteren wurde der Sonntag als teaminternen Tag gekennzeichnet, bei dem weitere Fragen und Vorgehensweisen besprochen werden. Zudem werden die bearbeiteten Aufgaben durchgegangen und geklärt, was mit dem Kunden am Folgetag gesprochen wird. Nach dem Kundentreffen ist ein teaminternes Meeting angesetzt, bei welchem reflektiert wird, wie der letzte Sprint lief und mögliche Verbesserungen angesprochen werden. 
+Die Sprints beginnen immer am Montag nachdem alle Anforderungen und Feedbacks in dem Sprint-Review eingesammelt worden sind. Des weiteren wurde der Donnerstag und Sonntag als teaminternen Tag gekennzeichnet, bei dem weitere Fragen und Vorgehensweisen besprochen werden. Zudem werden die bearbeiteten Aufgaben durchgegangen und geklärt, was mit dem Kunden am Folgetag gesprochen wird. Nach dem Kundentreffen ist ein teaminternes Meeting angesetzt, bei welchem reflektiert wird, wie der letzte Sprint lief und mögliche Verbesserungen angesprochen werden. 
 \newline
 \newline
-Im Ablauf der Sprints werden 2 Daily Standup-Meetings inkludiert, da mehrere Dailys im Rahmen dieses Projekts unrealistisch sind. Allerdings sind die Teammitglieder die ganze Woche erreichbar, um Unterstützung zu leisten und spontane Treffen einzurichten. Als Kommunikationsmittel wird teamintern ein Discord-Channel verwendet und für die Betreuer- sowie Kundentreffen hingegen Microsoft-Team.
+Im Ablauf der Sprints sind zwei Daily Standup-Meetings pro Woche vorgesehen, da es aufgrund von Vorlesungen und anderen Laborveranstaltungen nicht möglich ist, sich täglich zu treffen. Dennoch sind die Teammitglieder während der gesamten Woche erreichbar, um Unterstützung zu bieten und bei Bedarf spontane Treffen zu organisieren. Für die interne Kommunikation wird ein Discord-Server verwendet, während für Besprechungen mit dem Betreuer und Kunden Microsoft Teams zum Einsatz kommt.
 \newpage
 \section{Systemarchitektur}
 \subsection{Allgemein}
 Die Architektur des Gesamtsystems ist in einer Full-Stack Komponente unterteilt. Die Datenbank und der Authentifizierungsservice erfolgt über Supabase und einem Provider im Falle des Projektes über Microsoft, dass auch SSO unterstützt.
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{Abbildungen/Systemarchitektur.png}
+  \includegraphics[width=0.8\textwidth]{Abbildungen/Systemarchitektur.png}
   \caption{Systemarchitektur}
   \label{fig:systemarchitektur}
 \end{figure}
@@ -250,7 +172,7 @@ Die Architektur des Gesamtsystems ist in einer Full-Stack Komponente unterteilt.
   \caption{Struktursicht}
   \label{fig:struktursicht}
 \end{figure}
-Die Struktursicht zeigt den Aufbau des Projekts, das mit Next.js als Fullstack-Framework umgesetzt wurde. Die Anwendung ist in drei Hauptbereiche unterteilt: Das Frontend basiert auf React und ist modular strukturiert. Für die Authentifizierung wird SupaBase direkt vom Frontend aus genutzt. Die Backend-Logik ist in Node.js implementiert und über die integrierten API-Routen von Next.js (z.B. api/event, api/user) realisiert. Diese kommunizieren per HTTP mit der SupaBase-Datenbank. Die Architektur trennt somit klar zwischen Benutzeroberfläche, Geschäftslogik und Datenhaltung.
+Die Struktursicht zeigt den Aufbau des Projekts, das mit Next.js als Fullstack-Framework umgesetzt wurde. Die Anwendung ist in drei Hauptbereiche unterteilt: Das Frontend basiert auf React und ist modular strukturiert. Momentan wird für die Authentifizierung ein SSO benutzt, mit dem Authentication-Provider Google. Die Backend-Logik ist in Node.js implementiert und über die integrierten API-Routen von Next.js (z.B. api/event, api/user,...) realisiert. Es wird eine TCP/IP Verbindung für die Komunikation mit der Postgres-Datenbank genutzt. Die Architektur trennt somit klar zwischen Benutzeroberfläche, Geschäftslogik und Datenhaltung.
 \subsection{Verhaltenssicht}
 \begin{figure}[H]
   \centering
@@ -269,27 +191,147 @@ Die Verhaltenssicht beschreibt die Rollen und Interaktionen der Nutzer innerhalb
 Die Verteilungssicht zeigt, wie die verschiedenen Teile der Anwendung auf technische Komponenten verteilt sind. Das Frontend besteht aus React-Komponenten, die in pages.tsx implementiert sind. Die Authentifizierung erfolgt über SupaBase, das direkt vom Frontend per HTTP-Request angesprochen wird. Das Backend nutzt eine Datei wie route.ts, um serverseitige Logik bereitzustellen, und kommuniziert ebenfalls per HTTP mit der SupaBase-Datenbank. Die Datenhaltung sowie Authentifizierung sind somit ausgelagert und zentral über SupaBase realisiert. Die Struktur ermöglicht eine klare Trennung zwischen Präsentation, Authentifizierung, Logik und Daten.
 \newpage
 \section{Schnittstellentechnologien}
-\subsection{Schnittstellenbeschreibung}
-Schnittstellentechnologien bilden das Fundament für die reibungslose Kommunikation zwischen den verschiedenen Komponenten unseres Softwaresystems. Im Rahmen dieses Projekts dient eine RESTful-API als zentrale Vermittlungsinstanz zwischen dem Next.js-basierten Frontend, der Prisma-gestützten Datenbankebene und der Authentifizierungslösung von Supabase. Als Datenformat kommt JSON zum Einsatz, während die Übertragung über das HTTPS-Protokoll erfolgt. Diese Kombination gewährleistet nicht nur eine hohe Effizienz, sondern auch eine plattformunabhängige und sichere Kommunikation zwischen den Systemkomponenten.\newline \newline Die Architektur der API orientiert sich am App-Router-Konzept von Next.js, wobei jede Route in einer eigenständigen Datei (z. B. app/api/.../route.ts) implementiert wird. Die Gestaltung der Schnittstellen folgt dabei den etablierten REST-Prinzipien, insbesondere den Aspekten der Zustandslosigkeit, Adressierbarkeit, Verwendung standardisierter HTTP-Methoden und einer konsistenten Nutzung von HTTP-Statuscodes.\newline\newline Ein zentrales Merkmal der gewählten Architektur ist die Zustandslosigkeit (Statelessness), was bedeutet, dass jede eingehende Anfrage sämtliche für die Verarbeitung notwendigen Informationen - einschließlich der Authentifizierungsdaten - selbst enthalten muss. Die Verwaltung der Benutzersitzungen erfolgt dabei durch Supabase, das JSON-Web-Tokens (JWT) in Form von Cookies bereitstellt. Zusätzliche clientseitige Zustände, wie beispielsweise der lokale Status von Upvotes, werden durch den Client selbst verwaltet, wodurch eine klare Trennung der Verantwortlichkeiten gewahrt bleibt.\newline \newline Das Prinzip der Adressierbarkeit manifestiert sich in der strukturierten und eindeutigen Identifizierbarkeit aller Ressourcen über entsprechende URIs. So ermöglicht beispielsweise der Endpunkt GET /api/wish den Abruf einer vollständigen Liste aller Wünsche, während eine neue Ressource durch eine Anfrage an POST /api/wish angelegt werden kann. Spezifische Aktionen, wie das Setzen eines Upvotes, werden über definierte Routen wie POST /api/wish/{wishId}/upvote ausgelöst.\newline \newline Die verwendeten HTTP-Methoden folgen dem etablierten CRUD-Paradigma (Create, Read, Update, Delete), wobei die Leseoperationen durch die GET-Methode realisiert werden. Das Anlegen neuer Ressourcen oder das Auslösen von Aktionen erfolgt mittels POST, während PUT und PATCH für Aktualisierungen und DELETE für das Entfernen von Ressourcen vorgesehen sind.\newline \newline Die API kommuniziert den Erfolg oder Misserfolg einer Operation durch entsprechende HTTP-Statuscodes. Erfolgreiche Anfragen werden mit den Codes 200 OK oder 201 Created quittiert, während Validierungsfehler eine Antwort mit dem Status 400 Bad Request und detaillierten Fehlerbeschreibungen zur Folge haben. Unberechtigte Zugriffsversuche führen zur Rückgabe des Status 401 Unauthorized, und unerwartete Serverfehler werden durch den Code 500 Internal Server Error signalisiert.
+\subsection{Technische Umsetzung der Schnittstelle}
+Schnittstellentechnologien bilden das Fundament für die reibungslose Kommunikation zwischen den verschiedenen Komponenten unseres Softwaresystems. Ziel ist es, den Datenaustausch zwischen Frontend, Backend und Authentifizierungsmechanismen klar zu strukturieren undzuverlässig zu gestalten. Für unser Projekt haben wir uns bewusst für eine RESTful-API entschieden, um eine klar strukturierte und standardisierte Schnittstelle bereitzustellen. Die zentrale Aufgabe unseres Systems besteht darin, Events und Event-Wünsche anzulegen, anzuzeigen, zu bearbeiten und zu löschen, typische Operationen also, die sich sehr gut durch das CRUD-Modell (Create, Read, Update, Delete) abbilden lassen. REST ist dabei nicht nur leicht verständlich, was die Entwicklung erleichtert, sondern hat auch die Zusammenarbeit im Team gefördert. Als Datenformat verwenden wir JSON, die Übertragung erfolgt über das HTTPS-Protokoll. Damit ist die Kommunikation plattformunabhängig, sicher und performant. Die Architektur der API orientiert sich am App-Router-Konzept von Next.js, wobei jede Route in einer eigenständigen Datei (z.B. app/api/.../route.ts) implementiert wird. Die Anbindung an die Datenbank erfolgt über Prisma, die Benutzerverwaltung übernimmt Supabase. Ein weiterer Vorteil unserer API ist die Zustandslosigkeit: Jede Anfrage bringt alle nötige Informationen mit, z.B. Auth-Daten per JWT-Cookie. Dadurch brauchten wir keine eigene SessionVerwaltung. Auch bei der URI-Struktur setzen wir auf klare Adressierbarkeit, so wie beim Abrufen aller Events über GET /api/Event oder dem Upvote via POST /api/wish/[wishId]/upvote. \newline \newline In der folgenden Tabelle \ref{tab:api-events} sind exemplarisch die wichtigsten Endpunkte für Events dargestellt:
+\begin{table}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|p{5cm}|l|p{4.5cm}|}
+\hline
+\textbf{Methode} & \textbf{Pfad} & \textbf{Beschreibung} & \textbf{Erfolgsstatus} & \textbf{Fehlerstatus} \\ \hline
+GET    & /api/event           & Gibt eine Liste aller Events zurück                       & 200 OK                        & 500 Internal Server Error           \\ \hline
+POST   & /api/event           & Erstellt ein neues Event                                  & 201 Created                   & 400 Bad Request                     \\ \hline
+GET    & /api/event/[id]      & Gibt ein einzelnes Event mit zugehörigen Daten zurück     & 200 OK                        & 500 Internal Server Error           \\ \hline
+PATCH  & /api/event/[id]      & Aktualisiert gezielt Felder eines Events inkl. Terminen   & 200 OK oder 201 Created       & 400 Bad Request, 404 Not Found      \\ \hline
+DELETE & /api/event/[id]      & Löscht ein Event                                          & 200 OK oder 204 No Content    & 404 Not Found                       \\ \hline
+\end{tabular}%
+}
+\caption{Übersicht der REST-API-Endpunkte für Events}
+\label{tab:api-events}
+\end{table}
+\newline \newline PUT ist aktuell nicht implementiert, da im Projekt nur gezielte Änderungen nötig waren – ein vollständiges Überschreiben per PUT war bisher nicht erforderlich. Die verwendeten HTTP-Methoden entsprechen dem CRUD-Paradigma: Leseoperationen werden durch GET realisiert, das Anlegen neuer Ressourcen oder das Auslösen von Aktionen erfolgt mittels POST, während PATCH für gezielte Aktualisierungen und DELETE für das Entfernen von Ressourcen zuständig ist
 \newpage
 \section{Datenbank}
 \subsection{Logisches Datenmodell}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=1\textwidth]{Abbildungen/logisches_datenmodell.png}
+  \includegraphics[width=1\textwidth]{Abbildungen/erm.png}
   \caption{Logisches Datenmodell}
   \label{fig:logisches_datenmodell}
 \end{figure}
 \subsubsection{Entity Relationship Modell}
-In der Anwendung übernimmt die Datenbank eine tragende Rolle - sie bildet das Fundament, auf dem sämtliche Datenflüsse und Systemlogiken aufbauen.Mithilfe ihrer Struktur lassen sich unterschiedliche Entitäten und deren Beziehungen modellieren, wodurch Funktionen wie Eventmanagement, Umfragen oder das Einreichen von Nutzerwünschen umgesetzt werden können. Technisch basiert das System auf Supabase, das neben der Bereitstellung der relationalen Datenbank auch mit Supabase Auth eine sichere und zugleich benutzerfreundliche Authentifizierungslösung integriert.
-\subsubsection{Nutzerverwaltung mit Supabase Auth}
+Die Anwendung verwendet eine relationale Datenbank auf Basis von PostgreSQL. Die Entscheidung fiel bewusst auf PostgreSQL, da es sich um ein bewährtes, leistungsstarkes Open-Source-Datenbanksystem handelt, das ACID-Konformität, flexible Abfragemöglichkeiten sowie gute Skalierbarkeit bietet – alles zentrale Anforderungen für das Eventmanagement, Umfrageverarbeitung und die Wunsch-Einreichung in der Anwendung. Zur Verwaltung und Bereitstellung der Datenbank wird Supabase verwendet, ein Backend-as-a-Service-Framework, das PostgreSQL als Kerntechnologie nutzt. Supabase bietet zusätzlich integrierte Funktionen wie Supabase Auth für die Authentifizierung, das in der Anwendung für die gesamte Authentifizierung und Nutzerverwaltung verwendet wird. Dadurch lässt sich der Entwicklungsaufwand im Backend deutlich reduzieren, ohne auf Sicherheit und Konsistenz bei der Zugriffskontrolle verzichten zu müssen.
+\subsubsection{Nutzerverwaltung}
 Ein zentraler Bestandteil dieser Architektur ist die enge Verknüpfung zwischen der eigens entwickelten Users-Tabelle und der von Supabase bereitgestellten Tabelle auth.users. Während sicherheitskritische Informationen wie Passwörter ausschließlich in auth.users abgelegt und geschützt bleiben, enthält die eigene Users-Tabelle ergänzende Angaben wie E-Mail-Adresse oder Anzeigename. Die Verbindung beider Tabellen erfolgt über das id-Feld, das in auth.users als Primary Key definiert ist. Ein automatisch ausgelöster Trigger sorgt dafür, dass diese ID unmittelbar nach der Registrierung auch in der Users-Tabelle als Foreign Key gespeichert wird. Dadurch wird jeder Nutzer eindeutig identifizierbar und eine klare Trennung zwischen sicherheitsrelevanten und anwendungsbezogenen Informationen geschaffen.
 \subsubsection{Haupttabellen und ihre Aufgabenbereiche}
-Die Datenbankstruktur gliedert sich in Haupt- und Hilfstabellen. Zu den Haupttabellen zählen neben Users auch Wishes, Events sowie Surveys und SurveyQuestions. Über Wishes lassen sich Vorschläge und Ideen - etwa für künftige Schulungsveranstaltungen - einreichen. Diese Vorschläge können von anderen Nutzern geupvoted oder in tatsächliche Events umgewandelt werden. Solche Events können jedoch auch unabhängig von Wünschen erstellt werden. Surveys ermöglichen es, Rückmeldungen einzuholen, beispielsweise zur Qualität von Events, und sind direkt mit den dazugehörigen SurveyQuestions verknüpft, die die konkreten Fragestellungen enthalten.
+Die Datenbankstruktur gliedert sich in Haupt- und Hilfstabellen (vgl. Abbildung \ref{fig:logisches_datenmodell}). Die Haupttabellen sind in der Abbildung schwarz dargestellt, während die Hilfstabellen farblich hervorgehoben (grün) sind. Zu den Haupttabellen zählen neben Users auch Wishes, Events sowie Surveys und SurveyQuestions. Über Wishes lassen sich Vorschläge - etwa für künftige Schulungsveranstaltungen - einreichen. Diese Vorschläge können von anderen Nutzern geupvoted oder in tatsächliche Events umgewandelt werden. Solche Events können jedoch auch unabhängig von Wünschen erstellt werden. Surveys ermöglichen es, Rückmeldungen einzuholen, beispielsweise zur Qualität von Events, und sind direkt mit den dazugehörigen SurveyQuestions verknüpft, die die konkreten Fragestellungen enthalten.
 \subsubsection{Hilfstabellen für komplexe Beziehungen}
 Die Hilfstabellen dienen vor allem der Abbildung komplexer, meist Viele-zu-Viele-Beziehungen. So wird in UserAnswer gespeichert, welche Antwort ein bestimmter Nutzer auf eine Umfragefrage gegeben hat. Die Tabelle EventParticipation dokumentiert, welche Nutzer sich für welche Events angemeldet haben. WishUpvote wiederum ermöglicht es, Schulungswünsche zu unterstützen, indem man signalisiert, dass man die Idee für sinnvoll hält und sich eine Umsetzung in Form eines Events wünscht.
 \subsection{Physisches Datenmodell}
-Für das physische Datenmodell wird Supabase verwendet, das auf einer PostgreSQL-Datenbank basiert. Supabase hostet die gesamte Datenbank sowie die Benutzer-Authentifizierung. Alle Tabellen und Beziehungen folgen dem zuvor definierten logischen Modell. Zusätzlich sorgen serverseitige Funktionen wie Trigger und Zugriffspolicies für Sicherheit und Datenkonsistenz.
+Das zuvor beschriebene logische Datenmodell wurde in PostgreSQL vollständig umgesetzt. Dabei wurde insbesondere auf Datenintegrität, Normalisierung und den gezielten Einsatz eines Triggers zur Pflege der eigenen Users-Tabelle geachtet. Primärschlüssel werden durchgängig als uuid realisiert, um eine systemübergreifend eindeutige Identifikation von Datensätzen zu gewährleisten. Alle Beziehungen zwischen den Tabellen sind über Foreign-Key-Constraints abgesichert, sodass beispielsweise ein Nutzer nur dann an einem Event teilnehmen oder eine Umfrage beantworten kann, wenn er zuvor auch für das entsprechende Event registriert wurde. Die referenzielle Integrität wird durch entsprechende Foreign-Key-Constraints auf Datenbankebene gewährleistet. Die Datenbankstruktur wurde in der dritten Normalform (3NF) gehalten. Im Datenmodell ist dies erkennbar an der konsequenten Trennung von Entitäten wie Users, Wishes, Events und Surveys, die jeweils klar abgegrenzte Aufgabenbereiche und Attribute besitzen. Jede Tabelle enthält ausschließlich Attribute, die direkt vom Primärschlüssel abhängig sind. Es gibt keine transitive Abhängigkeit zwischen Nicht-Schlüsselattributen. Beispielsweise sind die Antworten auf Umfragen klar normalisiert: Die gewählten Optionen (SurveyAnswerOptions) und die tatsächlichen Nutzerantworten (SurveyAnswers) sind strikt getrennt, inklusive eindeutiger Referenzen auf Fragen und Nutzer. Durch diese Struktur wird Redundanz vermieden. Die Tabelle Users ist über das Feld userId mit der Supabase-Authentifizierungstabelle auth.users verknüpft. Wie in Abschnitt 9.1.2 beschrieben, stellt ein in PostgreSQL implementierter Trigger sicher, dass beim Anlegen eines neuen Auth-Users automatisch ein entsprechender Eintrag in der eigenen Users-Tabelle erzeugt wird. Dies gewährleistet eine saubere Trennung sicherheitsrelevanter Informationen von anwendungsspezifischen Profildaten.
+\newpage
+\appendix
+\section{UI Entwürfe}
+Anmerkung: Die UI-Entwürfe sind keine endgültigen Designentscheidungen, sondern dienen lediglich zur Veranschaulichung der Anwendungsstruktur.
+
+\subsection{Login}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/login.png}
+    \caption{Login}
+    \label{fig:login}
+\end{figure}
+
+\subsection{Events}
+\subsubsection{Event-Feed}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/event_feed.png}
+    \caption{Event-Feed}
+    \label{fig:event_Feed}
+\end{figure}
+
+\subsubsection{Meine Events}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/my_events.png}
+    \caption{Meine Events}
+    \label{fig:my_events}
+\end{figure}
+
+\subsubsection{Event erstellen}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/create_event.png}
+    \caption{Event erstellen}
+    \label{fig:create_event}
+\end{figure}
+
+\subsubsection{Umfrage erstellen}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/create_survey.png}
+    \caption{Umfrage erstellen}
+    \label{fig:create_survey}
+\end{figure}
+
+\subsubsection{Umfrage bearbeiten}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/edit_survey.png}
+    \caption{Umfrage bearbeiten}
+    \label{fig:edit_survey}
+\end{figure}
+
+\subsubsection{Meine Umfragen}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/my_surveys.png}
+    \caption{Meine Umfragen}
+    \label{fig:my_survey}
+\end{figure}
+
+\subsubsection{Event bearbeiten}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/edit_event.png}
+    \caption{Event bearbeiten}
+    \label{fig:cedit_event}
+\end{figure}
+
+\subsubsection{Event löschen}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/events/delete_event.png}
+    \caption{Event löschen}
+    \label{fig:delet_event}
+\end{figure}
+
+\subsection{Wünsche}
+\subsubsection{Wünsche-Feed}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/wishes/wishes-feed.png}
+    \caption{Wünsche-Feed}
+    \label{fig:wishes-feed}
+\end{figure}
+
+\subsubsection{Meine Wünsche}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/wishes/my-wishes.png}
+    \caption{Meine Wünsche}
+    \label{fig:my-wishes}
+\end{figure}
+
+\subsubsection{Wunsch erstellen}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Abbildungen/wishes/create_wish.png}
+    \caption{Wunsch erstellen}
+    \label{fig:create_wish}
+\end{figure}
+
 \newpage
 \section{Literaturverzeichnis}
 \end{document}
