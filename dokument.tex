@@ -14,6 +14,126 @@
 \sloppy
 \makeglossaries
 
+%----------------------------------------------
+% Glosar Einträge
+%----------------------------------------------
+
+\newglossaryentry{Frontend}{
+  name        = Frontend,
+  description = {Teil einer Anwendung, der für Nutzer sichtbar ist (Oberfläche, Benutzerinteraktion)}
+}
+
+\newglossaryentry{Backend}{
+  name        = Backend,
+  description = {Technischer Teil einer Anwendung, in dem Logik, Datenverarbeitung und Datenbanken laufen}
+}
+
+\newglossaryentry{Supabase}{
+  name        = Supabase,
+  description = {Cloud-basierte Backend-Plattform, die unter anderem Datenbanken, Authentifizierung und APIs bereitstellt}
+}
+
+\newglossaryentry{Vercel}{
+  name        = Vercel,
+  description = {Hosting-Plattform, die speziell auf moderne Webanwendungen wie z.\,B. Next.js ausgerichtet ist}
+}
+
+\newglossaryentry{Next.js}{
+  name        = Next.js,
+  description = {Framework für die Entwicklung von Webanwendungen mit React, inklusive Serverfunktionen}
+}
+
+\newglossaryentry{Prisma}{
+  name        = Prisma,
+  description = {ORM-Tool (Object-Relational Mapping), das den Zugriff auf Datenbanken vereinfacht}
+}
+
+\newglossaryentry{Merge-Konflikte}{
+  name        = Merge-Konflikt,
+  description = {Konflikt beim Zusammenführen von Änderungen im Code, wenn sich Änderungen widersprechen}
+}
+
+\newglossaryentry{Feature-Branches}{
+  name        = Feature-Branch,
+  description = {Separater Entwicklungszweig im Versionskontrollsystem (z.\,B. Git), in dem neue Funktionen entwickelt werden}
+}
+
+\newglossaryentry{Refactoring}{
+  name        = Refactoring,
+  description = {Umstrukturierung von Code, um ihn lesbarer, wartbarer oder effizienter zu machen, ohne Funktionalität zu ändern}
+}
+
+\newglossaryentry{Debugging}{
+  name        = Debugging,
+  description = {Systematisches Auffinden und Beheben von Fehlern im Code}
+}
+
+\newglossaryentry{Exploratory-Tests}{
+  name        = Exploratory-Tests,
+  description = {Freies Testen ohne feste Test-Skripte, um Schwachstellen oder unerwartetes Verhalten zu entdecken}
+}
+
+\newglossaryentry{Unit-Tests}{
+  name        = Unit-Test,
+  description = {Test auf kleinster Ebene, bei dem einzelne Funktionen oder Methoden isoliert überprüft werden}
+}
+
+\newglossaryentry{End-to-End-Tests}{
+  name        = End-to-End-Test,
+  description = {Test der gesamten Anwendung vom Start bis zur Benutzerinteraktion, um das Zusammenspiel aller Komponenten zu prüfen}
+}
+
+\newglossaryentry{Deployment}{
+  name        = Deployment,
+  description = {Veröffentlichung einer neuen Version der Anwendung auf einem Server oder einer Plattform}
+}
+
+\newglossaryentry{Balsamiq}{
+  name        = Balsamiq,
+  description = {Software-Tool zum schnellen Erstellen von Wireframes (visuelle Entwürfe von Benutzeroberflächen)}
+}
+
+\newglossaryentry{Upvote-Feature}{
+  name        = Upvote-Feature,
+  description = {Funktion, mit der Nutzer Inhalte (z.\,B. Wünsche) positiv bewerten können}
+}
+
+\newglossaryentry{In-App-Benachrichtigungen}{
+  name        = In-App-Benachrichtigungen,
+  description = {Direkt in der Anwendung angezeigte Hinweise oder Mitteilungen für die Nutzer}
+}
+
+\newglossaryentry{TypeScript}{
+  name        = TypeScript,
+  description = {Typsichere Programmiersprache, die auf JavaScript basiert und häufig in modernen Webanwendungen eingesetzt wird}
+}
+
+\newglossaryentry{React}{
+  name        = React,
+  description = {JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen, insbesondere für Single-Page-Applications}
+}
+
+\newglossaryentry{Docker}{
+  name        = Docker,
+  description = {Plattform zur Containerisierung von Anwendungen zur Sicherstellung von portabler und konsistenter Laufzeitumgebung}
+}
+
+\newglossaryentry{JWT}{
+  name        = JWT,
+  description = {JSON Web Token – Kompakt formatierter Token zur sicheren Übertragung von Informationen zwischen Parteien als JSON-Objekt}
+}
+
+\newglossaryentry{REST}{
+  name        = REST,
+  description = {Architekturstil für Webservices, der auf HTTP-Protokollen basiert und CRUD-Operationen unterstützt}
+}
+
+\newglossaryentry{CRUD}{
+  name        = CRUD,
+  description = {Abkürzung für Create, Read, Update, Delete – Grundoperationen auf Daten in Webanwendungen}
+}
+
+
 \begin{document}
 
 %----------------------------------------------
@@ -24,15 +144,6 @@
 \author{Felix Hoffmann, Baran Bickici, Sami Gökpinar, Ergün Bickici}
 \date{\today}
 \maketitle
-
-%----------------------------------------------
-% Glosar Einträge
-%----------------------------------------------
-
-\newglossaryentry{event}{
-    name=Event,
-    description={}
-}
 
 \newpage
 
@@ -76,7 +187,7 @@ Im Rahmen des Softwareprojekts im 4. Semester des Studienganges Softwaretechnik 
 %----------------------------------------------
 
 \subsection{Full-Stack Framework}
-Für die Umsetzung des Projekts wurde Next.js als Full-Stack-Framework gewählt. Next.js basiert auf React und bietet eine vollständige Lösung für die Entwicklung von Webanwendungen, indem es sowohl Frontend- als auch Backend-Funktionalitäten integriert. Mit Next.js können Entwickler sowohl serverseitiges Rendering (SSR) als auch statische Seitengenerierung (SSG) nutzen. Zudem bietet es eine einfache Möglichkeit, API-Routen zu erstellen, was es zu einer hervorragenden Wahl für Full-Stack-Entwicklungen macht. Die Verwendung von TypeScript sorgt für eine typsichere und fehlerarme Entwicklung, sowohl im Frontend als auch im Backend.
+Für die Umsetzung des Projekts wurde \gls{Next.js} als Full-Stack-Framework gewählt. Next.js basiert auf \gls{React} und bietet eine vollständige Lösung für die Entwicklung von Webanwendungen, indem es sowohl Frontend- als auch Backend-Funktionalitäten integriert. Mit Next.js können Entwickler sowohl serverseitiges Rendering (SSR) als auch statische Seitengenerierung (SSG) nutzen. Zudem bietet es eine einfache Möglichkeit, API-Routen zu erstellen, was es zu einer hervorragenden Wahl für Full-Stack-Entwicklungen macht. Die Verwendung von \gls{TypeScript} sorgt für eine typsichere und fehlerarme Entwicklung, sowohl im \gls{Frontend} als auch im Backend.
 
 %----------------------------------------------
 % 2.1.1 Frontend
@@ -90,7 +201,7 @@ Im Frontend nutzt Next.js React. React ist eine quelloffene JavaScript-Bibliothe
 %----------------------------------------------
 
 \subsubsection{Backend}
-Das Backend in Next.js wird durch das integrierte API-Routing realisiert, das auf Node.js basiert. Durch diese Integration können Entwickler API-Routen direkt innerhalb der Next.js-Anwendung erstellen, ohne einen separaten Server benötigen zu müssen. Diese Routen ermöglichen es, serverseitige Logik auszuführen, wie etwa das Abrufen von Daten aus einer Datenbank oder das Bearbeiten von Anfragen. Da Next.js auf Node.js aufbaut, können alle leistungsfähigen Funktionen von Node.js genutzt werden, während TypeScript die Entwicklung durch statische Typisierung und Fehlererkennung verbessert. Dies sorgt für eine konsistente und sichere Entwicklung sowohl im Frontend als auch im Backend innerhalb derselben Codebasis.
+Das \gls{Backend} in Next.js wird durch das integrierte API-Routing realisiert, das auf Node.js basiert. Durch diese Integration können Entwickler API-Routen direkt innerhalb der Next.js-Anwendung erstellen, ohne einen separaten Server benötigen zu müssen. Diese Routen ermöglichen es, serverseitige Logik auszuführen, wie etwa das Abrufen von Daten aus einer Datenbank oder das Bearbeiten von Anfragen. Da Next.js auf Node.js aufbaut, können alle leistungsfähigen Funktionen von Node.js genutzt werden, während TypeScript die Entwicklung durch statische Typisierung und Fehlererkennung verbessert. Dies sorgt für eine konsistente und sichere Entwicklung sowohl im Frontend als auch im Backend innerhalb derselben Codebasis.
 
 \newpage
 
@@ -99,7 +210,7 @@ Das Backend in Next.js wird durch das integrierte API-Routing realisiert, das au
 %----------------------------------------------
 
 \subsection{Datenbank}
-Für die Umsetzung der Anwendung wurde eine relationale Datenbank auf Basis von PostgreSQL gewählt. Diese Entscheidung basiert auf der strukturellen Beschaffenheit der Daten sowie auf Vorkenntnissen im Umgang mit relationalen Datenbanksystemen. Die Anwendung verarbeitet klar strukturierte Daten wie Nutzerinformationen, Veranstaltungsdetails, Wunschvorschläge und Umfrageergebnisse. Viele dieser Entitäten weisen ähnliche Attribute auf oder stehen in logisch definierten Beziehungen zueinander. Relationale Datenbanken eignen sich in solchen Szenarien besonders gut, da sie eine eindeutige Abbildung von Beziehungen ermöglichen. Zudem liegen bereits umfangreiche Erfahrungen im Umgang mit relationalen Datenbanken vor, unter anderem durch vergangene Vorlesungen und Projekte mit SQL. Der Einsatz einer vertrauten Technologie ermöglicht eine effizientere Umsetzung des Datenmodells, ohne zusätzlichen Einarbeitungsaufwand in alternative Datenbankkonzepte. PostgreSQL wurde als Datenbankmanagementsystem gewählt, da es als stabile und gut dokumentierte Lösung gilt. Es deckt sowohl grundlegende Anforderungen wie CRUD-Operationen als auch komplexere Anforderungen hinsichtlich Datenintegrität ab. In Kombination mit der Backend-Plattform Supabase wird die Datenbank um Zugriffskontrollen ergänzt, ohne dass dafür viel eigene Backend-Logik nötig ist.
+Für die Umsetzung der Anwendung wurde eine relationale Datenbank auf Basis von PostgreSQL gewählt. Diese Entscheidung basiert auf der strukturellen Beschaffenheit der Daten sowie auf Vorkenntnissen im Umgang mit relationalen Datenbanksystemen. Die Anwendung verarbeitet klar strukturierte Daten wie Nutzerinformationen, Veranstaltungsdetails, Wunschvorschläge und Umfrageergebnisse. Viele dieser Entitäten weisen ähnliche Attribute auf oder stehen in logisch definierten Beziehungen zueinander. Relationale Datenbanken eignen sich in solchen Szenarien besonders gut, da sie eine eindeutige Abbildung von Beziehungen ermöglichen. Zudem liegen bereits umfangreiche Erfahrungen im Umgang mit relationalen Datenbanken vor, unter anderem durch vergangene Vorlesungen und Projekte mit SQL. Der Einsatz einer vertrauten Technologie ermöglicht eine effizientere Umsetzung des Datenmodells, ohne zusätzlichen Einarbeitungsaufwand in alternative Datenbankkonzepte. PostgreSQL wurde als Datenbankmanagementsystem gewählt, da es als stabile und gut dokumentierte Lösung gilt. Es deckt sowohl grundlegende Anforderungen wie CRUD-Operationen als auch komplexere Anforderungen hinsichtlich Datenintegrität ab. In Kombination mit der Backend as a Service Plattform \gls{Supabase} wird die Datenbank um Zugriffskontrollen ergänzt, ohne dass dafür viel eigene Backend-Logik nötig ist.
 
 %----------------------------------------------
 % 2.3 Authentifizierung
@@ -113,7 +224,7 @@ Supabase wird für die Authentifizierung genutzt, da es eine einfache und sicher
 %----------------------------------------------
 
 \subsection{Bereitstellung}
-Zur Bereitstellung wird in diesem Projekt Docker verwendet, da so sicher gegangen werden kann, dass die Anwendung in einer konsistenten Umgebung ausgeführt wird, unabhängig von den zugrunde liegenden Betriebssystemen oder Hardwarekonfigurationen.
+Zur Bereitstellung wird in diesem Projekt \gls{Docker} verwendet, da so sicher gegangen werden kann, dass die Anwendung in einer konsistenten Umgebung ausgeführt wird, unabhängig von den zugrunde liegenden Betriebssystemen oder Hardwarekonfigurationen.
 
 \newpage
 
@@ -381,7 +492,7 @@ Die Verteilungssicht zeigt, wie die verschiedenen Teile der Anwendung auf techni
 %----------------------------------------------
 
 \subsection{Technische Umsetzung der Schnittstelle}
-Schnitt\-stellen\-technologien bilden das Fundament für die reibungslose Kommunikation zwischen den verschiedenen Komponenten unseres Software\-systems. Ziel ist es, den Daten\-austausch zwischen Frontend, Backend und Authentifizierungs\-mechanismen klar zu strukturieren und zuverlässig zu gestalten. Für unser Projekt haben wir uns bewusst für eine \texttt{RESTful-API} entschieden, um eine klar strukturierte und standardisierte Schnittstelle bereitzustellen. Die zentrale Aufgabe unseres Systems besteht darin, Events und Event-Wünsche anzulegen, anzuzeigen, zu bearbeiten und zu löschen – typische Operationen also, die sich sehr gut durch das \texttt{CRUD}-Modell (Create, Read, Update, Delete) abbilden lassen. \texttt{REST} ist dabei nicht nur leicht verständlich, was die Entwicklung erleichtert, sondern hat auch die Zusammenarbeit im Team gefördert. Als Datenformat verwenden wir \texttt{JSON}, die Übertragung erfolgt über das \texttt{HTTPS}-Protokoll. Damit ist die Kommunikation platt\-form\-unabhängig, sicher und performant. Die Architektur der API orientiert sich am App-Router-Konzept von \mbox{\texttt{Next.js}}, wobei jede Route in einer eigenständigen Datei (z.\,B. \mbox{\texttt{app/api/.../route.ts}}) implementiert wird. Die Anbindung an die Datenbank erfolgt über \texttt{Prisma}, die Benutzer\-verwaltung übernimmt \texttt{Supabase}. Ein weiterer Vorteil unserer API ist die Zustands\-losigkeit: Jede Anfrage bringt alle nötigen Informationen mit, z.\,B. Auth-Daten per \texttt{JWT}-Cookie. Dadurch brauchten wir keine eigene Session\-Verwaltung. Auch bei der \texttt{URI}-Struktur setzen wir auf klare Adressierbarkeit, so wie beim Abrufen aller Events über \mbox{\texttt{GET /api/Event}} oder dem Upvote via \mbox{\texttt{POST /api/wish/[wishId]/upvote}}. In der folgenden Tabelle \ref{tab:api-events} sind exemplarisch die wichtigsten Endpunkte für Events dargestellt:
+Schnitt\-stellen\-technologien bilden das Fundament für die reibungslose Kommunikation zwischen den verschiedenen Komponenten unseres Software\-systems. Ziel ist es, den Daten\-austausch zwischen Frontend, Backend und Authentifizierungs\-mechanismen klar zu strukturieren und zuverlässig zu gestalten. Für unser Projekt haben wir uns bewusst für eine \texttt{RESTful-API} entschieden, um eine klar strukturierte und standardisierte Schnittstelle bereitzustellen. Die zentrale Aufgabe unseres Systems besteht darin, Events und Event-Wünsche anzulegen, anzuzeigen, zu bearbeiten und zu löschen – typische Operationen also, die sich sehr gut durch das \texttt{\gls{CRUD}}-Modell (Create, Read, Update, Delete) abbilden lassen. \texttt{\gls{REST}} ist dabei nicht nur leicht verständlich, was die Entwicklung erleichtert, sondern hat auch die Zusammenarbeit im Team gefördert. Als Datenformat verwenden wir \texttt{JSON}, die Übertragung erfolgt über das \texttt{HTTPS}-Protokoll. Damit ist die Kommunikation platt\-form\-unabhängig, sicher und performant. Die Architektur der API orientiert sich am App-Router-Konzept von \mbox{\texttt{Next.js}}, wobei jede Route in einer eigenständigen Datei (z.\,B. \mbox{\texttt{app/api/.../route.ts}}) implementiert wird. Die Anbindung an die Datenbank erfolgt über \texttt{\gls{Prisma}}, die Benutzer\-verwaltung übernimmt \texttt{Supabase}. Ein weiterer Vorteil unserer API ist die Zustands\-losigkeit: Jede Anfrage bringt alle nötigen Informationen mit, z.\,B. Auth-Daten per \texttt{\gls{JWT}}-Cookie. Dadurch brauchten wir keine eigene Session\-Verwaltung. Auch bei der \texttt{URI}-Struktur setzen wir auf klare Adressierbarkeit, so wie beim Abrufen aller Events über \mbox{\texttt{GET /api/Event}} oder dem Upvote via \mbox{\texttt{POST /api/wish/[wishId]/upvote}}. In der folgenden Tabelle \ref{tab:api-events} sind exemplarisch die wichtigsten Endpunkte für Events dargestellt:
 \begin{table}[H]
 \centering
 \scriptsize
@@ -648,13 +759,13 @@ Im System gibt es viele wiederkehrende Formate wie interne Schulungen oder Vortr
 
 Im Team Eventplaner hat grundsätzlich jede Person sowohl Frontend- als auch Backend-Aufgaben übernommen. Trotzdem haben sich im Laufe des Projekts natürliche Schwerpunkte gebildet, bei denen einzelne Mitglieder bestimmte Features federführend umgesetzt haben. 
 
-Ergün war technischer Ansprechpartner, insbesondere im Bereich Authentifizierung und Supabase. Er hat die Anmeldung und Registrierung umgesetzt und dafür gesorgt, dass die Datenbank angebunden war. Außerdem hat er das Deployment über Vercel übernommen und sich um technische Aspekte gekümmert, die beispielsweise mit der Anbindung an die Cloud zusammenhingen. Zu Beginn des Projekts kam es aufgrund der Server-Region von Supabase, die zunächst in den USA lag, zu Latenzproblemen. Ergün hat in diesem Zusammenhang die Umstellung auf einen Server-Standort in Frankfurt organisiert. Zusätzlich hat er das Survey-Feature umgesetzt, das im Backend zusätzliche Logik erforderte. Auch bei Git-Problemen oder MergeKonflikten hat er häufig die Lösung übernommen.
+Ergün war technischer Ansprechpartner, insbesondere im Bereich Authentifizierung und Supabase. Er hat die Anmeldung und Registrierung umgesetzt und dafür gesorgt, dass die Datenbank angebunden war. Außerdem hat er das \gls{Deployment} über \gls{Vercel} übernommen und sich um technische Aspekte gekümmert, die beispielsweise mit der Anbindung an die Cloud zusammenhingen. Zu Beginn des Projekts kam es aufgrund der Server-Region von Supabase, die zunächst in den USA lag, zu Latenzproblemen. Ergün hat in diesem Zusammenhang die Umstellung auf einen Server-Standort in Frankfurt organisiert. Zusätzlich hat er das Survey-Feature umgesetzt, das im Backend zusätzliche Logik erforderte. Auch bei Git-Problemen oder MergeKonflikten hat er häufig die Lösung übernommen.
 
-Felix hat sich mit der E-Mail-Funktion beschäftigt, also mit allen Aspekten, die dafür sorgen, dass Teilnehmende bei bestimmten Aktionen automatisch benachrichtigt werden. Die Umsetzung erforderte eine enge Abstimmung zwischen Backend und Frontend. Darüber hinaus hat er beim Refactoring mitgewirkt, den Code besser strukturiert und auf Übersichtlichkeit geachtet. 
+Felix hat sich mit der E-Mail-Funktion beschäftigt, also mit allen Aspekten, die dafür sorgen, dass Teilnehmende bei bestimmten Aktionen automatisch benachrichtigt werden. Die Umsetzung erforderte eine enge Abstimmung zwischen Backend und Frontend. Darüber hinaus hat er beim \gls{Refactoring} mitgewirkt, den Code besser strukturiert und auf Übersichtlichkeit geachtet. 
 
-Baran war vor bei der Datenbank und der Logik für Event-Teilnahmen aktiv. Er hat zu Beginn die Datenbank modelliert und diese anschließend fortlaufend an die Anforderungen angepasst. Zusätzlich hat er mit Balsamiq eine erste visuelle Version der App erstellt, die in der weiteren Entwicklung genutzt wurde. Außerdem hat er Backend-Logik rund um Event-Teilnahmen sowie zusammen mit Sami das Statistik Feature umgesetzt.
+Baran war vor bei der Datenbank und der Logik für Event-Teilnahmen aktiv. Er hat zu Beginn die Datenbank modelliert und diese anschließend fortlaufend an die Anforderungen angepasst. Zusätzlich hat er mit \gls{Balsamiq} eine erste visuelle Version der App erstellt, die in der weiteren Entwicklung genutzt wurde. Außerdem hat er Backend-Logik rund um Event-Teilnahmen sowie zusammen mit Sami das Statistik Feature umgesetzt.
 
-Sami hat sich mit dem Upvote Feature beschäftigt, mit dem Nutzer Wishes bewerten können. Außerdem hat er die Logik für In-App-Benachrichtigungen umgesetzt, also der Logik dahinter, wann Nutzer welche Informationen bekommen sollen, sowie der dazugehörigen Funktionalität. Ein weiterer Schwerpunkt war auch das Statistik Feature, bei dem er eng mit Baran zusammengearbeitet hat. Zusätzlich hat Sami das grundlegende Layout der App erstellt, einschließlich Navigation, Header und Footer, wodurch eine Struktur für die weitere Entwicklung entstand. Die Zusammenarbeit im Team verlief insgesamt strukturiert, auch wenn es Phasen gab, in denen einzelne Mitglieder überwiegend an spezifischen Features gearbeitet haben, wurden bei Problemen oder größeren Herausforderungen gemeinsame Lösungen erarbeitet. Die Arbeitsverteilung war ausgewogen, und alle Teammitglieder haben im Verlauf des Projekts sowohl im Backend als auch im Frontend Erfahrungen gesammelt.
+Sami hat sich mit dem \gls{Upvote-Feature} beschäftigt, mit dem Nutzer Wishes bewerten können. Außerdem hat er die Logik für \gls{In-App-Benachrichtigungen} umgesetzt, also der Logik dahinter, wann Nutzer welche Informationen bekommen sollen, sowie der dazugehörigen Funktionalität. Ein weiterer Schwerpunkt war auch das Statistik Feature, bei dem er eng mit Baran zusammengearbeitet hat. Zusätzlich hat Sami das grundlegende Layout der App erstellt, einschließlich Navigation, Header und Footer, wodurch eine Struktur für die weitere Entwicklung entstand. Die Zusammenarbeit im Team verlief insgesamt strukturiert, auch wenn es Phasen gab, in denen einzelne Mitglieder überwiegend an spezifischen Features gearbeitet haben, wurden bei Problemen oder größeren Herausforderungen gemeinsame Lösungen erarbeitet. Die Arbeitsverteilung war ausgewogen, und alle Teammitglieder haben im Verlauf des Projekts sowohl im Backend als auch im Frontend Erfahrungen gesammelt.
 
 \begin{figure}[H]
     \centering
@@ -687,7 +798,7 @@ Dadurch zog sich die Entwicklung der Datenbank über nahezu das gesamte Projekt 
 
 Die Dokumentation der gesamten Anwendung wurde bereits zu Beginn als aufwändig eingeschätzt, zum Beispiel das Dokumentieren der API-Schnittstellen. Im Verlauf des Projekts konnten wir jedoch durch die konsequente Nutzung von Jira, insbesondere durch das regelmäßige Erstellen von User-Stories und deren detaillierte Beschreibung, den dokumentarischen Aufwand besser bewältigen. Da User-Stories konsequent ausführlich ausformuliert und dokumentiert wurden, konnte auf diese Weise langfristig Zeit eingespart werden. Dennoch wurde auch der Aufwand für die Dokumentation der einzelnen Meilensteine als nicht unerheblich betrachtet. In der Woche vor den jeweiligen Abgaben ein Extra von drei Stunden.
 
-Schlussendlich wurde der Aufwand für das Testen mit Unit-Tests am stärksten unterschätzt. Durch die Ambition, am Ende eines jeden Sprints neue Features präsentieren zu können, war es nicht möglich, diese Features durch Unit-Tests zu prüfen. So wurde lediglich manuell im Frontend getestet. Diese Arbeit summierte sich über den gesamten Projektverlauf hinweg und wurde schließlich so umfangreich, dass sie bis heute nicht vollständig abgeschlossen werden konnte. Rückblickend war der Aufwand, ein Feature sauber und gründlich zu testen, der am meisten unterschätzte Aspekt des Projekts.
+Schlussendlich wurde der Aufwand für das Testen mit \gls{Unit-Tests} am stärksten unterschätzt. Durch die Ambition, am Ende eines jeden Sprints neue Features präsentieren zu können, war es nicht möglich, diese Features durch Unit-Tests zu prüfen. So wurde lediglich manuell im Frontend getestet. Diese Arbeit summierte sich über den gesamten Projektverlauf hinweg und wurde schließlich so umfangreich, dass sie bis heute nicht vollständig abgeschlossen werden konnte. Rückblickend war der Aufwand, ein Feature sauber und gründlich zu testen, der am meisten unterschätzte Aspekt des Projekts.
 
 \newpage
 
@@ -725,9 +836,9 @@ Durch das Semesterprojekt, bei dem für ein reales Unternehmen eine praxisnahe A
 
 Im technischen Bereich wurden umfangreiche neue Kenntnisse erworben. Technologien wie Next.js, Supabase und Prisma waren zu Beginn für die meisten Teammitglieder neu. Einzelne Personen verfügten bereits über erste Vorkenntnisse im Umgang mit Next.js. Dennoch war es erforderlich, sich intensiv mit diesen Tools auseinanderzusetzen und verschiedene Herausforderungen zu bewältigen. Im weiteren Verlauf des Projekts wurde der Umgang mit den Technologien vertrauter wodurch Funktionen wie Authentifizierung, automatisierte E-Mail-Benachrichtigungen und Datenbankmodellierungen umgesetzt werden konnten. Das Deployment über Vercel ermöglichte zudem praktische Einblicke in HostingPlattformen und produktive Umgebungen.
 
-Ein zusätzlicher technischer Schwerpunkt lag im Umgang mit Git. Insbesondere zu Beginn traten häufig Merge-Konflikte auf. Trotz der Nutzung von Feature-Branches kam es zu Überschneidungen, die im Technische Fähigkeiten Vorfeld nicht immer absehbar waren. Teilweise arbeiteten mehrere Personen parallel an denselben Komponenten, was die Konflikte begünstigte. Um diese Probleme zu reduzieren, wurde der Fokus stärker auf technisches Planen und Abstimmung innerhalb des Teams gelegt. Die Anwendung systematischer Fehleranalysen unterstützte dabei den Entwicklungsprozess. Insbesondere durch Debugging konnten Fehler schrittweise erkannt und behoben werden.
+Ein zusätzlicher technischer Schwerpunkt lag im Umgang mit Git. Insbesondere zu Beginn traten häufig \gls{Merge-Konflikte} auf. Trotz der Nutzung von \gls{Feature-Branches} kam es zu Überschneidungen, die im Technische Fähigkeiten Vorfeld nicht immer absehbar waren. Teilweise arbeiteten mehrere Personen parallel an denselben Komponenten, was die Konflikte begünstigte. Um diese Probleme zu reduzieren, wurde der Fokus stärker auf technisches Planen und Abstimmung innerhalb des Teams gelegt. Die Anwendung systematischer Fehleranalysen unterstützte dabei den Entwicklungsprozess. Insbesondere durch \gls{Debugging} konnten Fehler schrittweise erkannt und behoben werden.
 
-Im Bereich Testing und Qualitätssicherung wurde erkannt, wie wichtig automatisierte Tests für die langfristige Stabilität sind. Während der Projektphase wurden überwiegend manuelle Tests durchgeführt, indem die Anwendung wiederholt durchgeklickt und Funktionen überprüft wurden. Dennoch traten weiterhin Fehler auf, die teilweise vom Betreuer oder dem Kunden entdeckt wurden. Im Rückblick zeigte sich, dass ein früherer und konsequenter Einsatz von automatisierten Tests, einschließlich Exploratory-Tests Unit-Tests und End-to-End-Tests, dabei geholfen hätte, solche Fehler frühzeitig zu identifizieren.
+Im Bereich Testing und Qualitätssicherung wurde erkannt, wie wichtig automatisierte Tests für die langfristige Stabilität sind. Während der Projektphase wurden überwiegend manuelle Tests durchgeführt, indem die Anwendung wiederholt durchgeklickt und Funktionen überprüft wurden. Dennoch traten weiterhin Fehler auf, die teilweise vom Betreuer oder dem Kunden entdeckt wurden. Im Rückblick zeigte sich, dass ein früherer und konsequenter Einsatz von automatisierten Tests, einschließlich \gls{Exploratory-Tests} Unit-Tests und \gls{End-to-End-Tests}, dabei geholfen hätte, solche Fehler frühzeitig zu identifizieren.
 
 %----------------------------------------------
 % 15.2 Methodische Kompetenzen
@@ -889,6 +1000,14 @@ Anmerkung: Die UI-Entwürfe sind keine endgültigen Designentscheidungen, sonder
     \caption{Wunsch erstellen}
     \label{fig:create_wish}
 \end{figure}
+
+\newpage
+
+%----------------------------------------------
+% B Glossar
+%----------------------------------------------
+
+\printglossaries
 
 \newpage
 

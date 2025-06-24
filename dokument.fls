@@ -198,7 +198,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT dokument.glsdefs
 OUTPUT dokument.ist
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
@@ -367,6 +366,12 @@ INPUT ./Abbildungen/wishes/create_wish.png
 INPUT ./Abbildungen/wishes/create_wish.png
 INPUT ./Abbildungen/wishes/create_wish.png
 INPUT ./Abbildungen/wishes/create_wish.png
+INPUT ./dokument.gls
+INPUT ./dokument.gls
+INPUT dokument.gls
+INPUT ./dokument.acr
+INPUT ./dokument.acr
+INPUT dokument.acr
 INPUT dokument.aux
 INPUT ./dokument.out
 INPUT ./dokument.out
