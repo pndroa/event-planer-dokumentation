@@ -270,6 +270,7 @@ INPUT ./Abbildungen/erm.png
 INPUT ./Abbildungen/erm.png
 INPUT ./Abbildungen/erm.png
 INPUT ./Abbildungen/erm.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT ./Abbildungen/kalenderansicht.png
 INPUT ./Abbildungen/kalenderansicht.png
 INPUT ./Abbildungen/kalenderansicht.png
@@ -310,7 +311,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT ./Abbildungen/events/login.png
 INPUT ./Abbildungen/events/login.png
 INPUT ./Abbildungen/events/login.png
