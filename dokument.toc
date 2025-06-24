@@ -62,19 +62,20 @@
 \contentsline {subsection}{\numberline {15.4}Soft Skills}{34}{subsection.15.4}%
 \contentsline {subsection}{\numberline {15.5}Lessons Learned}{34}{subsection.15.5}%
 \contentsline {subsection}{\numberline {15.6}Fazit}{35}{subsection.15.6}%
-\contentsline {section}{\numberline {A}UI Entwürfe}{36}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Login}{36}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Events}{36}{subsection.A.2}%
-\contentsline {subsubsection}{\numberline {A.2.1}Event-Feed}{36}{subsubsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {A.2.2}Meine Events}{37}{subsubsection.A.2.2}%
-\contentsline {subsubsection}{\numberline {A.2.3}Event erstellen}{37}{subsubsection.A.2.3}%
-\contentsline {subsubsection}{\numberline {A.2.4}Umfrage erstellen}{38}{subsubsection.A.2.4}%
-\contentsline {subsubsection}{\numberline {A.2.5}Umfrage bearbeiten}{38}{subsubsection.A.2.5}%
-\contentsline {subsubsection}{\numberline {A.2.6}Meine Umfragen}{39}{subsubsection.A.2.6}%
-\contentsline {subsubsection}{\numberline {A.2.7}Event bearbeiten}{39}{subsubsection.A.2.7}%
-\contentsline {subsubsection}{\numberline {A.2.8}Event löschen}{40}{subsubsection.A.2.8}%
-\contentsline {subsection}{\numberline {A.3}Wünsche}{40}{subsection.A.3}%
-\contentsline {subsubsection}{\numberline {A.3.1}Wünsche-Feed}{40}{subsubsection.A.3.1}%
-\contentsline {subsubsection}{\numberline {A.3.2}Meine Wünsche}{41}{subsubsection.A.3.2}%
-\contentsline {subsubsection}{\numberline {A.3.3}Wunsch erstellen}{41}{subsubsection.A.3.3}%
-\contentsline {section}{\numberline {B}Literaturverzeichnis}{44}{appendix.B}%
+\contentsline {section}{\numberline {16}Interaktion mit Künstlicher Intelligenz}{36}{section.16}%
+\contentsline {section}{\numberline {A}UI Entwürfe}{37}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Login}{37}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Events}{37}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Event-Feed}{37}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Meine Events}{38}{subsubsection.A.2.2}%
+\contentsline {subsubsection}{\numberline {A.2.3}Event erstellen}{38}{subsubsection.A.2.3}%
+\contentsline {subsubsection}{\numberline {A.2.4}Umfrage erstellen}{39}{subsubsection.A.2.4}%
+\contentsline {subsubsection}{\numberline {A.2.5}Umfrage bearbeiten}{39}{subsubsection.A.2.5}%
+\contentsline {subsubsection}{\numberline {A.2.6}Meine Umfragen}{40}{subsubsection.A.2.6}%
+\contentsline {subsubsection}{\numberline {A.2.7}Event bearbeiten}{40}{subsubsection.A.2.7}%
+\contentsline {subsubsection}{\numberline {A.2.8}Event löschen}{41}{subsubsection.A.2.8}%
+\contentsline {subsection}{\numberline {A.3}Wünsche}{41}{subsection.A.3}%
+\contentsline {subsubsection}{\numberline {A.3.1}Wünsche-Feed}{41}{subsubsection.A.3.1}%
+\contentsline {subsubsection}{\numberline {A.3.2}Meine Wünsche}{42}{subsubsection.A.3.2}%
+\contentsline {subsubsection}{\numberline {A.3.3}Wunsch erstellen}{42}{subsubsection.A.3.3}%
+\contentsline {section}{\numberline {B}Literaturverzeichnis}{45}{appendix.B}%
