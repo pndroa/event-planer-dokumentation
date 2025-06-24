@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.20)  24 JUN 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.20)  24 JUN 2025 20:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -498,47 +498,59 @@ Package hyperref Info: Link coloring OFF on input line 137.
 \@outlinefile=\write6
 \openout6 = `dokument.out'.
 
+<Abbildungen/logo.png, id=325, 1027.84pt x 1027.84pt>
+File: Abbildungen/logo.png Graphic file (type png)
+<use Abbildungen/logo.png>
+Package pdftex.def Info: Abbildungen/logo.png  used on input line 156.
+(pdftex.def)             Requested size: 159.33821pt x 159.32924pt.
 
 
 [1
 
 \openout3 = `dokument.ist'.
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./dokument.toc
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Abbildungen/logo.png (PNG copy)>] (./dokument.toc
 
-[2])
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ...& Administrationshandbuch}{21}{section.10}
+                                                  % [1])
 \tf@toc=\write7
 \openout7 = `dokument.toc'.
 
 
 
-[3] (./dokument.lof)
+[2] (./dokument.lof)
 \tf@lof=\write8
 \openout8 = `dokument.lof'.
 
 
 
-[4] (./dokument.lot)
+[3] (./dokument.lot)
 \tf@lot=\write9
 \openout9 = `dokument.lot'.
 
 
 
+[4]
+
 [5]
 
 [6]
-
-[7]
-<Abbildungen/feature_map.png, id=499, 3161.8125pt x 387.4475pt>
+<Abbildungen/feature_map.png, id=504, 3161.8125pt x 387.4475pt>
 File: Abbildungen/feature_map.png Graphic file (type png)
 <use Abbildungen/feature_map.png>
-Package pdftex.def Info: Abbildungen/feature_map.png  used on input line 259.
+Package pdftex.def Info: Abbildungen/feature_map.png  used on input line 294.
 (pdftex.def)             Requested size: 455.24411pt x 55.7853pt.
 
 
-[8 <./Abbildungen/feature_map.png>]
+[7 <./Abbildungen/feature_map.png>]
 
-[9{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[8{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[9]
 
 [10]
 
@@ -547,212 +559,210 @@ Package pdftex.def Info: Abbildungen/feature_map.png  used on input line 259.
 [12]
 
 [13]
-
-[14]
-<Abbildungen/Systemarchitektur.png, id=530, 499.8675pt x 703.62875pt>
+<Abbildungen/Systemarchitektur.png, id=535, 499.8675pt x 703.62875pt>
 File: Abbildungen/Systemarchitektur.png Graphic file (type png)
 <use Abbildungen/Systemarchitektur.png>
-Package pdftex.def Info: Abbildungen/Systemarchitektur.png  used on input line 436.
+Package pdftex.def Info: Abbildungen/Systemarchitektur.png  used on input line 471.
 (pdftex.def)             Requested size: 364.19667pt x 512.6677pt.
 
 
-[15 <./Abbildungen/Systemarchitektur.png>]
-<Abbildungen/struktursicht.png, id=537, 753.81625pt x 292.09125pt>
+[14 <./Abbildungen/Systemarchitektur.png>]
+<Abbildungen/struktursicht.png, id=542, 753.81625pt x 292.09125pt>
 File: Abbildungen/struktursicht.png Graphic file (type png)
 <use Abbildungen/struktursicht.png>
-Package pdftex.def Info: Abbildungen/struktursicht.png  used on input line 450.
+Package pdftex.def Info: Abbildungen/struktursicht.png  used on input line 485.
 (pdftex.def)             Requested size: 455.24411pt x 176.39706pt.
-<Abbildungen/verhaltenssicht.png, id=538, 584.1825pt x 505.89pt>
+<Abbildungen/verhaltenssicht.png, id=543, 584.1825pt x 505.89pt>
 File: Abbildungen/verhaltenssicht.png Graphic file (type png)
 <use Abbildungen/verhaltenssicht.png>
-Package pdftex.def Info: Abbildungen/verhaltenssicht.png  used on input line 463.
+Package pdftex.def Info: Abbildungen/verhaltenssicht.png  used on input line 498.
 (pdftex.def)             Requested size: 409.71692pt x 354.8153pt.
 
 
-[16 <./Abbildungen/struktursicht.png>]
-<Abbildungen/verteilungssicht.png, id=544, 753.81625pt x 221.82875pt>
+[15 <./Abbildungen/struktursicht.png>]
+<Abbildungen/verteilungssicht.png, id=549, 753.81625pt x 221.82875pt>
 File: Abbildungen/verteilungssicht.png Graphic file (type png)
 <use Abbildungen/verteilungssicht.png>
-Package pdftex.def Info: Abbildungen/verteilungssicht.png  used on input line 476.
+Package pdftex.def Info: Abbildungen/verteilungssicht.png  used on input line 511.
 (pdftex.def)             Requested size: 455.24411pt x 133.96477pt.
 
 
-[17 <./Abbildungen/verhaltenssicht.png>]
+[16 <./Abbildungen/verhaltenssicht.png>]
 
-[18 <./Abbildungen/verteilungssicht.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 507--507
+[17 <./Abbildungen/verteilungssicht.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/cmr/m/n/8 Gibt ei-ne Lis-te al-ler
  []
 
 
 
-[19]
-<Abbildungen/erm.png, id=565, 3171.85pt x 1284.8pt>
+[18]
+<Abbildungen/erm.png, id=570, 3171.85pt x 1284.8pt>
 File: Abbildungen/erm.png Graphic file (type png)
 <use Abbildungen/erm.png>
-Package pdftex.def Info: Abbildungen/erm.png  used on input line 531.
+Package pdftex.def Info: Abbildungen/erm.png  used on input line 566.
 (pdftex.def)             Requested size: 455.24411pt x 184.3994pt.
 
 
-[20 <./Abbildungen/erm.png>]
+[19 <./Abbildungen/erm.png>]
+
+[20]
 
 [21]
 
 [22]
-
-[23]
-<Abbildungen/kalenderansicht.png, id=584, 446.66875pt x 341.275pt>
+<Abbildungen/kalenderansicht.png, id=590, 446.66875pt x 341.275pt>
 File: Abbildungen/kalenderansicht.png Graphic file (type png)
 <use Abbildungen/kalenderansicht.png>
-Package pdftex.def Info: Abbildungen/kalenderansicht.png  used on input line 669.
+Package pdftex.def Info: Abbildungen/kalenderansicht.png  used on input line 704.
 (pdftex.def)             Requested size: 455.24411pt x 347.83551pt.
 
 
-[24 <./Abbildungen/kalenderansicht.png>]
-<Abbildungen/gruppierte_events.png, id=591, 557.08125pt x 372.39125pt>
+[23 <./Abbildungen/kalenderansicht.png>]
+<Abbildungen/gruppierte_events.png, id=596, 557.08125pt x 372.39125pt>
 File: Abbildungen/gruppierte_events.png Graphic file (type png)
 <use Abbildungen/gruppierte_events.png>
-Package pdftex.def Info: Abbildungen/gruppierte_events.png  used on input line 688.
+Package pdftex.def Info: Abbildungen/gruppierte_events.png  used on input line 723.
 (pdftex.def)             Requested size: 455.24411pt x 304.32295pt.
 
 
-[25 <./Abbildungen/gruppierte_events.png>]
-<Abbildungen/kommentarsektion.png, id=598, 436.63126pt x 538.01pt>
+[24 <./Abbildungen/gruppierte_events.png>]
+<Abbildungen/kommentarsektion.png, id=603, 436.63126pt x 538.01pt>
 File: Abbildungen/kommentarsektion.png Graphic file (type png)
 <use Abbildungen/kommentarsektion.png>
-Package pdftex.def Info: Abbildungen/kommentarsektion.png  used on input line 709.
+Package pdftex.def Info: Abbildungen/kommentarsektion.png  used on input line 744.
 (pdftex.def)             Requested size: 318.66948pt x 392.66194pt.
 
 
-[26 <./Abbildungen/kommentarsektion.png>]
-<Abbildungen/profilseite.png, id=604, 563.10374pt x 431.6125pt>
+[25 <./Abbildungen/kommentarsektion.png>]
+<Abbildungen/profilseite.png, id=609, 563.10374pt x 431.6125pt>
 File: Abbildungen/profilseite.png Graphic file (type png)
 <use Abbildungen/profilseite.png>
-Package pdftex.def Info: Abbildungen/profilseite.png  used on input line 730.
+Package pdftex.def Info: Abbildungen/profilseite.png  used on input line 765.
 (pdftex.def)             Requested size: 455.24411pt x 348.93903pt.
 
 
-[27 <./Abbildungen/profilseite.png>]
-<Abbildungen/wiederkehrende_events.png, id=610, 573.14125pt x 481.8pt>
+[26 <./Abbildungen/profilseite.png>]
+<Abbildungen/wiederkehrende_events.png, id=615, 573.14125pt x 481.8pt>
 File: Abbildungen/wiederkehrende_events.png Graphic file (type png)
 <use Abbildungen/wiederkehrende_events.png>
-Package pdftex.def Info: Abbildungen/wiederkehrende_events.png  used on input line 747.
+Package pdftex.def Info: Abbildungen/wiederkehrende_events.png  used on input line 782.
 (pdftex.def)             Requested size: 455.24411pt x 382.69835pt.
 
 
-[28 <./Abbildungen/wiederkehrende_events.png>]
-<Abbildungen/aufgaben_verteilung.png, id=616, 670.505pt x 500.87125pt>
+[27 <./Abbildungen/wiederkehrende_events.png>]
+<Abbildungen/aufgaben_verteilung.png, id=621, 670.505pt x 500.87125pt>
 File: Abbildungen/aufgaben_verteilung.png Graphic file (type png)
 <use Abbildungen/aufgaben_verteilung.png>
-Package pdftex.def Info: Abbildungen/aufgaben_verteilung.png  used on input line 772.
+Package pdftex.def Info: Abbildungen/aufgaben_verteilung.png  used on input line 807.
 (pdftex.def)             Requested size: 455.24411pt x 340.06822pt.
 
 
-[29]
+[28]
 
-[30 <./Abbildungen/aufgaben_verteilung.png>]
+[29 <./Abbildungen/aufgaben_verteilung.png>]
 
-[31]
-<Abbildungen/stacey_matrix.png, id=631, 1541.76pt x 1027.84pt>
+[30]
+<Abbildungen/stacey_matrix.png, id=636, 1541.76pt x 1027.84pt>
 File: Abbildungen/stacey_matrix.png Graphic file (type png)
 <use Abbildungen/stacey_matrix.png>
-Package pdftex.def Info: Abbildungen/stacey_matrix.png  used on input line 813.
+Package pdftex.def Info: Abbildungen/stacey_matrix.png  used on input line 848.
 (pdftex.def)             Requested size: 455.24411pt x 303.49248pt.
 
 
-[32 <./Abbildungen/stacey_matrix.png (PNG copy)>]
+[31 <./Abbildungen/stacey_matrix.png (PNG copy)>]
+
+[32]
 
 [33]
 
 [34]
 
 [35]
-
-[36]
-<Abbildungen/events/login.png, id=656, 869.2475pt x 430.60875pt>
+<Abbildungen/events/login.png, id=660, 869.2475pt x 430.60875pt>
 File: Abbildungen/events/login.png Graphic file (type png)
 <use Abbildungen/events/login.png>
-Package pdftex.def Info: Abbildungen/events/login.png  used on input line 933.
+Package pdftex.def Info: Abbildungen/events/login.png  used on input line 968.
 (pdftex.def)             Requested size: 455.24411pt x 225.52104pt.
-<Abbildungen/events/event_feed.png, id=657, 874.26625pt x 428.60126pt>
+<Abbildungen/events/event_feed.png, id=661, 874.26625pt x 428.60126pt>
 File: Abbildungen/events/event_feed.png Graphic file (type png)
 <use Abbildungen/events/event_feed.png>
-Package pdftex.def Info: Abbildungen/events/event_feed.png  used on input line 942.
+Package pdftex.def Info: Abbildungen/events/event_feed.png  used on input line 977.
 (pdftex.def)             Requested size: 455.24411pt x 223.1813pt.
-<Abbildungen/events/my_events.png, id=658, 873.2625pt x 428.60126pt>
+<Abbildungen/events/my_events.png, id=662, 873.2625pt x 428.60126pt>
 File: Abbildungen/events/my_events.png Graphic file (type png)
 <use Abbildungen/events/my_events.png>
-Package pdftex.def Info: Abbildungen/events/my_events.png  used on input line 950.
+Package pdftex.def Info: Abbildungen/events/my_events.png  used on input line 985.
 (pdftex.def)             Requested size: 455.24411pt x 223.43636pt.
 
 
-[37 <./Abbildungen/events/login.png> <./Abbildungen/events/event_feed.png>]
-<Abbildungen/events/create_event.png, id=666, 872.25874pt x 428.60126pt>
+[36 <./Abbildungen/events/login.png> <./Abbildungen/events/event_feed.png>]
+<Abbildungen/events/create_event.png, id=670, 872.25874pt x 428.60126pt>
 File: Abbildungen/events/create_event.png Graphic file (type png)
 <use Abbildungen/events/create_event.png>
-Package pdftex.def Info: Abbildungen/events/create_event.png  used on input line 958.
+Package pdftex.def Info: Abbildungen/events/create_event.png  used on input line 993.
 (pdftex.def)             Requested size: 455.24411pt x 223.69142pt.
-<Abbildungen/events/create_survey.png, id=667, 874.26625pt x 433.62pt>
+<Abbildungen/events/create_survey.png, id=671, 874.26625pt x 433.62pt>
 File: Abbildungen/events/create_survey.png Graphic file (type png)
 <use Abbildungen/events/create_survey.png>
-Package pdftex.def Info: Abbildungen/events/create_survey.png  used on input line 966.
+Package pdftex.def Info: Abbildungen/events/create_survey.png  used on input line 1001.
 (pdftex.def)             Requested size: 455.24411pt x 225.79468pt.
 
 
-[38 <./Abbildungen/events/my_events.png> <./Abbildungen/events/create_event.png>]
-<Abbildungen/events/edit_survey.png, id=674, 870.25125pt x 420.57124pt>
+[37 <./Abbildungen/events/my_events.png> <./Abbildungen/events/create_event.png>]
+<Abbildungen/events/edit_survey.png, id=678, 870.25125pt x 420.57124pt>
 File: Abbildungen/events/edit_survey.png Graphic file (type png)
 <use Abbildungen/events/edit_survey.png>
-Package pdftex.def Info: Abbildungen/events/edit_survey.png  used on input line 974.
+Package pdftex.def Info: Abbildungen/events/edit_survey.png  used on input line 1009.
 (pdftex.def)             Requested size: 455.24411pt x 220.01387pt.
-<Abbildungen/events/my_surveys.png, id=675, 874.26625pt x 433.62pt>
+<Abbildungen/events/my_surveys.png, id=679, 874.26625pt x 433.62pt>
 File: Abbildungen/events/my_surveys.png Graphic file (type png)
 <use Abbildungen/events/my_surveys.png>
-Package pdftex.def Info: Abbildungen/events/my_surveys.png  used on input line 982.
+Package pdftex.def Info: Abbildungen/events/my_surveys.png  used on input line 1017.
 (pdftex.def)             Requested size: 455.24411pt x 225.79468pt.
 
 
-[39 <./Abbildungen/events/create_survey.png> <./Abbildungen/events/edit_survey.png>]
-<Abbildungen/events/edit_event.png, id=682, 874.26625pt x 429.605pt>
+[38 <./Abbildungen/events/create_survey.png> <./Abbildungen/events/edit_survey.png>]
+<Abbildungen/events/edit_event.png, id=686, 874.26625pt x 429.605pt>
 File: Abbildungen/events/edit_event.png Graphic file (type png)
 <use Abbildungen/events/edit_event.png>
-Package pdftex.def Info: Abbildungen/events/edit_event.png  used on input line 990.
+Package pdftex.def Info: Abbildungen/events/edit_event.png  used on input line 1025.
 (pdftex.def)             Requested size: 455.24411pt x 223.70398pt.
-<Abbildungen/events/delete_event.png, id=683, 875.27pt x 431.6125pt>
+<Abbildungen/events/delete_event.png, id=687, 875.27pt x 431.6125pt>
 File: Abbildungen/events/delete_event.png Graphic file (type png)
 <use Abbildungen/events/delete_event.png>
-Package pdftex.def Info: Abbildungen/events/delete_event.png  used on input line 998.
+Package pdftex.def Info: Abbildungen/events/delete_event.png  used on input line 1033.
 (pdftex.def)             Requested size: 455.24411pt x 224.49246pt.
 
 
-[40 <./Abbildungen/events/my_surveys.png> <./Abbildungen/events/edit_event.png>]
-<Abbildungen/wishes/wishes-feed.png, id=690, 874.26625pt x 497.86pt>
+[39 <./Abbildungen/events/my_surveys.png> <./Abbildungen/events/edit_event.png>]
+<Abbildungen/wishes/wishes-feed.png, id=694, 874.26625pt x 497.86pt>
 File: Abbildungen/wishes/wishes-feed.png Graphic file (type png)
 <use Abbildungen/wishes/wishes-feed.png>
-Package pdftex.def Info: Abbildungen/wishes/wishes-feed.png  used on input line 1007.
+Package pdftex.def Info: Abbildungen/wishes/wishes-feed.png  used on input line 1042.
 (pdftex.def)             Requested size: 455.24411pt x 259.24573pt.
-<Abbildungen/wishes/my-wishes.png, id=691, 872.25874pt x 432.61626pt>
+<Abbildungen/wishes/my-wishes.png, id=695, 872.25874pt x 432.61626pt>
 File: Abbildungen/wishes/my-wishes.png Graphic file (type png)
 <use Abbildungen/wishes/my-wishes.png>
-Package pdftex.def Info: Abbildungen/wishes/my-wishes.png  used on input line 1015.
+Package pdftex.def Info: Abbildungen/wishes/my-wishes.png  used on input line 1050.
 (pdftex.def)             Requested size: 455.24411pt x 225.7869pt.
 
 
-[41 <./Abbildungen/events/delete_event.png> <./Abbildungen/wishes/wishes-feed.png>]
-<Abbildungen/wishes/create_wish.png, id=698, 873.2625pt x 432.61626pt>
+[40 <./Abbildungen/events/delete_event.png> <./Abbildungen/wishes/wishes-feed.png>]
+<Abbildungen/wishes/create_wish.png, id=703, 873.2625pt x 432.61626pt>
 File: Abbildungen/wishes/create_wish.png Graphic file (type png)
 <use Abbildungen/wishes/create_wish.png>
-Package pdftex.def Info: Abbildungen/wishes/create_wish.png  used on input line 1023.
+Package pdftex.def Info: Abbildungen/wishes/create_wish.png  used on input line 1058.
 (pdftex.def)             Requested size: 455.24411pt x 225.52945pt.
 
 
-[42 <./Abbildungen/wishes/my-wishes.png> <./Abbildungen/wishes/create_wish.png>] (./dokument.gls
+[41 <./Abbildungen/wishes/my-wishes.png> <./Abbildungen/wishes/create_wish.png>] (./dokument.gls
 
-[43]) (./dokument.acr)
+[42]) (./dokument.acr)
 
-[44]
+[43]
 
-[45] (./dokument.aux)
+[44] (./dokument.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -761,18 +771,18 @@ Package rerunfilecheck Info: File `dokument.out' has not changed.
 (rerunfilecheck)             Checksum: B1BC541EA507513D06607EAB01020D59;12181.
  ) 
 Here is how much of TeX's memory you used:
- 19035 strings out of 473190
- 348594 string characters out of 5715800
- 808708 words of memory out of 5000000
- 41900 multiletter control sequences out of 15000+600000
- 574648 words of font info for 73 fonts, out of 8000000 for 9000
+ 19045 strings out of 473190
+ 348801 string characters out of 5715800
+ 808754 words of memory out of 5000000
+ 41907 multiletter control sequences out of 15000+600000
+ 575365 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,79p,2453b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on dokument.pdf (45 pages, 6079423 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on dokument.pdf (45 pages, 7569505 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 689 compressed objects within 7 object streams
+ 826 PDF objects out of 1000 (max. 8388607)
+ 694 compressed objects within 7 object streams
  157 named destinations out of 1000 (max. 500000)
- 766 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 771 words of extra memory for PDF output out of 10000 (max. 10000000)
 
