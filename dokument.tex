@@ -465,6 +465,45 @@ Das zuvor beschriebene logische Datenmodell wurde in PostgreSQL vollständig umg
 
 \section{Installations- \& Administrationshandbuch}
 
+Die Installations- und Administrationsanleitung befindet sich vollständig dokumentiert in der Datei README.md im Hauptverzeichnis des GitHub-Repositories. Darin werden zwei Varianten zur Ausführung der Anwendung beschrieben: eine lokale Installation sowie eine containerisierte Ausführung mittels Docker.
+
+%----------------------------------------------
+% 10.1 Lokale Installation
+%----------------------------------------------
+
+\subsection{Lokale Installation}
+
+Für die lokale Nutzung werden Node.js (Version 18 oder höher), ein Paketmanager (npm oder yarn) sowie eine PostgreSQL Datenbank die bei diesem Projekt über Supabase läuft vorausgesetzt. Die notwendigen Umgebungsvariablen sind in einer .env-Datei zu definieren, für die eine Vorlage in der Datei .env.template bereitgestellt wird.
+
+Die Schritte zur Installation und Ausführung beinhalten unter anderem:
+
+\begin{itemize}
+  \item Klonen des Repositories
+  \item Installation der Abhängigkeiten
+  \item Generierung des Prisma-Clients
+  \item Start der Anwendung im Entwicklungs- oder Produktionsmodus
+\end{itemize}
+
+Zudem werden administrative Befehle für Prisma dokumentiert, etwa zur Migration oder zur Verwendung des webbasierten Datenbank-Interfaces.
+
+%----------------------------------------------
+% 10.2 Containerisierte Ausführung mit Docker
+%----------------------------------------------
+
+\subsection{Containerisierte Ausführung mit Docker}
+
+Alternativ kann die Anwendung vollständig containerisiert ausgeführt werden. Die dazu erforderlichen Konfigurationsdateien Dockerfile und docker-compose.yml sind im Projekt enthalten. Die Docker-Umgebung berücksichtigt unter anderem die Abhängigkeit von OpenSSL und die Nutzung von Supabase mit einem IPv4-kompatiblen Session Pooler.
+
+Die README-Datei beschreibt den Aufbau, Start, Betrieb und das Stoppen der Containerumgebung sowie die Ausführung von Verwaltungsbefehlen innerhalb des Containers.
+
+%----------------------------------------------
+% 10.3 Projektstruktur
+%----------------------------------------------
+
+\subsection{Projektstruktur}
+
+Ebenfalls in der README.md enthalten ist ein Überblick über die Projektstruktur, einschließlich Konfigurationsdateien, Verzeichnisse für Quellcode, Datenbankschemata und Containerdefinitionen.
+
 \newpage
 
 %----------------------------------------------
@@ -472,6 +511,29 @@ Das zuvor beschriebene logische Datenmodell wurde in PostgreSQL vollständig umg
 %----------------------------------------------
 
 \section{Lizenzen}
+
+\subsection{Verwendete Lizenzen}
+
+Im Projekt wird das Framework Next.js verwendet, das unter der MIT-Lizenz steht. Darüber hinaus kommen zahlreiche weitere Open-Source-Bibliotheken zum Einsatz, die überwiegend ebenfalls unter der MIT-Lizenz veröffentlicht wurden. Dazu gehören unter anderem:
+
+\begin{itemize}
+  \item React und React-DOM (MIT)
+  \item Prisma (MIT)
+  \item MUI (Material UI) (MIT)
+  \item Emotion (verschiedene Module wie styled, cache, react) (MIT)
+  \item Axios (MIT)
+  \item Date-fns und date-fns-tz (MIT)
+  \item Supabase (MIT)
+  \item EJS (Apache-2.0)
+  \item Diverse ESLint- und Testing-Bibliotheken (überwiegend MIT)
+\end{itemize}
+
+Die genauen Lizenzinformationen aller verwendeten Pakete sind in der Datei package-lock.json hinterlegt. Dabei handelt es sich fast ausschließlich um weit verbreitete, permissive Lizenzen wie MIT, Apache-2.0 oder BSD.
+
+\subsection{Lizenz des eigenen Quellcodes}
+
+Der im Rahmen dieses Projekts erstellte Quellcode wird unter die MIT-Lizenz gestellt. Die Lizenz erlaubt eine freie Nutzung, Veränderung und Weiterverbreitung des Codes, auch für kommerzielle Zwecke, sofern die Lizenzbedingungen eingehalten werden. Der vollständige Lizenztext befindet sich in der Datei \texttt{LICENSE} im Hauptverzeichnis des Projekts.
+
 
 \newpage
 

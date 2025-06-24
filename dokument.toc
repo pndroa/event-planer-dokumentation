@@ -41,7 +41,12 @@
 \contentsline {subsubsection}{\numberline {9.1.4}Hilfstabellen für komplexe Beziehungen}{21}{subsubsection.9.1.4}%
 \contentsline {subsection}{\numberline {9.2}Physisches Datenmodell}{21}{subsection.9.2}%
 \contentsline {section}{\numberline {10}Installations- \& Administrationshandbuch}{22}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lokale Installation}{22}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Containerisierte Ausführung mit Docker}{22}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Projektstruktur}{22}{subsection.10.3}%
 \contentsline {section}{\numberline {11}Lizenzen}{23}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Verwendete Lizenzen}{23}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Lizenz des eigenen Quellcodes}{23}{subsection.11.2}%
 \contentsline {section}{\numberline {12}Ausblick}{24}{section.12}%
 \contentsline {subsection}{\numberline {12.1}Kalenderansicht / Kalendersystem}{24}{subsection.12.1}%
 \contentsline {subsection}{\numberline {12.2}Zeitlich gruppierter Eventseite}{25}{subsection.12.2}%
